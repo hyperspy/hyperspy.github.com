@@ -23,7 +23,22 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="shortcut icon" href="_static/hyperspy_logo.ico"/>
-    <link rel="top" title="Hyperspy" href="index.html" /> 
+    <link rel="top" title="Hyperspy" href="index.html" />
+ 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25260850-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
   </head>
   <body>
     <div class="header-wrapper">
@@ -100,6 +115,20 @@
 <p>Currently there are not stable releases of Hyperspy. For instructions on how to
 install the develoment version check the <a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/install.html">installation chapter in the User Guide</a></p>
 </div>
+<div class="section" id="other-related-software">
+<h2>Other related software<a class="headerlink" href="#other-related-software" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="importrpl-digital-micrograph-plugin">
+<span id="import-rpl"></span><h3>ImportRPL Digital Micrograph plugin<a class="headerlink" href="#importrpl-digital-micrograph-plugin" title="Permalink to this headline">¶</a></h3>
+<p>This Digital Micrograph plugin is designed to import Ripple files into Digital Micrograph. It is used to easy data transit between DigitalMicrograph and Hyperspy without losing the calibration using the extra keywords that Hyperspy adds to the standard format.</p>
+<p>When executed it will ask for 2 files:
+#. The riple file with the data  format and calibrations
+#. The data itself in raw format.</p>
+<p>Id a file with the same name and path as the riple file exits
+with raw or bin extension it is opened directly without prompting</p>
+<p>ImportRPL was written by Luiz Fernando Zagonel.</p>
+<p><tt class="xref download docutils literal"><span class="pre">Download</span> <span class="pre">ImportRPL</span></tt></p>
+</div>
+</div>
 </div>
 
 
@@ -111,6 +140,7 @@ install the develoment version check the <a class="reference external" href="htt
     </div>
     </div>
 
+
     <div class="footer-wrapper">
       
     <div class="footer">
@@ -118,6 +148,20 @@ install the develoment version check the <a class="reference external" href="htt
       Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.7.
     </div>
     </div>
+
+<div class="footer">This page uses <a href="http://analytics.google.com/">
+Google Analytics</a> to collect statistics. You can disable it by blocking
+the JavaScript coming from www.google-analytics.com.
+<script type="text/javascript">
+  (function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ?
+              'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+  })();
+</script>
+</div>
 
   </body>
 </html>

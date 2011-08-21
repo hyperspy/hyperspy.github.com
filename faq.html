@@ -23,7 +23,22 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="shortcut icon" href="_static/hyperspy_logo.ico"/>
-    <link rel="top" title="Hyperspy" href="index.html" /> 
+    <link rel="top" title="Hyperspy" href="index.html" />
+ 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25260850-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
   </head>
   <body>
     <div class="header-wrapper">
@@ -98,7 +113,8 @@
 <p>If your question isn&#8217;t answered below, check <a class="reference external" href="http://hyperspy.github.com/hyperspy-doc/">the docs</a>, then ask on the <a class="reference external" href="mailto:hyperspy-devel&#37;&#52;&#48;googlegroups&#46;com">user mailing list</a>.</p>
 <div class="contents local topic" id="contents">
 <ul class="simple">
-<li><a class="reference internal" href="#why-did-you-change-the-name-of-the-project" id="id2">Why did you change the name of the project</a></li>
+<li><a class="reference internal" href="#why-did-you-change-the-name-of-the-project" id="id4">Why did you change the name of the project</a></li>
+<li><a class="reference internal" href="#hyperspy-is-very-cool-but-i-want-to-export-the-data-to-analyse-it-with-x-that-is-so-much-cooler-is-it-possible" id="id5">Hyperspy is very cool, but I want to export the data to analyse it with X that is so much cooler, is it possible?</a></li>
 </ul>
 </div>
 <div class="section" id="why-did-you-change-the-name-of-the-project">
@@ -106,11 +122,15 @@
 <blockquote>
 <div>Hey, I have been using EELSLab since version 0.x just because I liked very
 much to type its name, why did you change it now?</div></blockquote>
-<p><strong>Answer:</strong> We feel that the project has grown much beyond the scope that the
-old name suggested. We think that &#8220;Hyperspectral Spy&#8221; describes much better the
-current features and goals of the project. Yo do not agree? Well, then we think
-that Hyperspectral Python describes much better the
+<p><strong>Answer:</strong> We feel that the project has grown beyond the scope that the
+old name evoked. We think that &#8220;Hyperspectral Spy&#8221; describes much better the
+current features and goals of the project. You do not agree? Well, then we think
+that &#8220;Hyperspectral Python&#8221; describes much better the
 current features and goals of the project.</p>
+</div>
+<div class="section" id="hyperspy-is-very-cool-but-i-want-to-export-the-data-to-analyse-it-with-x-that-is-so-much-cooler-is-it-possible">
+<h2>Hyperspy is very cool, but I want to export the data to analyse it with X that is so much cooler, is it possible?<a class="headerlink" href="#hyperspy-is-very-cool-but-i-want-to-export-the-data-to-analyse-it-with-x-that-is-so-much-cooler-is-it-possible" title="Permalink to this headline">¶</a></h2>
+<p><strong>Answer:</strong> Sure! By default Hyperspy saves the data in HDF5, which is an open standard supported by most data analysis software either by default or via plugins. If your favourite data analysis package does not support HDF5 then you can check if it does support any of the other formats to which Hyperspy can write, see <a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/aggregate.html#supported-formats" title="(in Hyperspy v0.3.0)"><em>Supported formats</em></a>. If X is Gatan&#8217;s Digital Micrograph, which does not support HDF5, you can save to the <a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/aggregate.html#ripple-format" title="(in Hyperspy v0.3.0)"><em>Ripple</em></a> and use the :ref:<a href="#id2"><span class="problematic" id="id3">`</span></a>rpl-dm-plugin&#8217; to read the RPL file.</p>
 </div>
 </div>
 
@@ -123,6 +143,7 @@ current features and goals of the project.</p>
     </div>
     </div>
 
+
     <div class="footer-wrapper">
       
     <div class="footer">
@@ -130,6 +151,20 @@ current features and goals of the project.</p>
       Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.7.
     </div>
     </div>
+
+<div class="footer">This page uses <a href="http://analytics.google.com/">
+Google Analytics</a> to collect statistics. You can disable it by blocking
+the JavaScript coming from www.google-analytics.com.
+<script type="text/javascript">
+  (function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ?
+              'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+  })();
+</script>
+</div>
 
   </body>
 </html>
