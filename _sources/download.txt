@@ -12,6 +12,8 @@ Currently there are not stable releases of Hyperspy.
 Beta Releases
 ================
 
+A Debian/Ubuntu package that requires the latest version (Wheezy and Oneiric respectively) of both OS `can be downloaded here <https://github.com/downloads/hyperspy/hyperspy/python-hyperspy_0.3.0b1-1_all.deb>`_.
+
 The Windows installer for the current beta 1 release, version 0.3.0b1 can be downloaded using the following links:
 
 `Hyperspy-0.3.0 beta 1 for Windows 32-bits 
@@ -21,7 +23,7 @@ The Windows installer for the current beta 1 release, version 0.3.0b1 can be dow
 <https://github.com/downloads/hyperspy/hyperspy/hyperspy-0.3.0b1.win-amd64.exe>`_
 
 .. WARNING::
-    before installing Hyperspy you must :ref:`install-dependencies`
+    before installing Hyperspy the :ref:`the required libraries must be installed <install-dependencies>`
 
 Development version
 ===================
