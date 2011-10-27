@@ -12,16 +12,16 @@ Currently there are not stable releases of Hyperspy.
 Beta Releases
 ================
 
+The Windows installer for the current beta 1 release, version 0.3.0b1 can be downloaded using the following links
 
-`download Hyperspy-0.3 beta 1 for Microsoft Windows 32-bits 
+* `Hyperspy-0.3.0 beta 1 for Windows 32-bits 
 <https://github.com/downloads/hyperspy/hyperspy/hyperspy-0.3.0b1.win32.exe>`_
 
-`download Hyperspy-0.3 beta 1 for Microsoft Windows 64-bits 
+`Hyperspy-0.3.0 beta 1 for Windows 64-bits 
 <https://github.com/downloads/hyperspy/hyperspy/hyperspy-0.3.0b1.win-amd64.exe>`_
 
-.. _warning:
-
-    Remember that before installing you must :ref:`install the required libraries <install-dependencies>`
+.. WARNING::
+    before installing Hyperspy you must :ref:`install-dependencies`
 
 Development version
 ===================
