@@ -34,7 +34,9 @@ The Windows installer for the current beta 1 release, version 0.3.0b1 can be dow
 Linux
 ------
 
-A Debian/Ubuntu package that requires the latest version (Wheezy and Oneiric respectively) of both OS `can be downloaded here <https://github.com/downloads/hyperspy/hyperspy/python-hyperspy_0.3.0b1-1_all.deb>`_.
+A Debian/Ubuntu package `can be downloaded here <https://github.com/downloads/hyperspy/hyperspy/python-hyperspy_0.3.0b1-1_all.deb>`_.
+
+Please note that the latest version of Ubuntu and Debian, Oneiric and Wheezy respectively, are required.
 
 Development version
 ===================
