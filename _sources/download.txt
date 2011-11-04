@@ -20,12 +20,12 @@ Beta Releases
 Windows
 -------
 
-The Windows installer for the current beta 1 release, version 0.3.0b1 can be downloaded using the following links:
+The Windows installer for the current beta 2 release, can be downloaded using the following links:
 
-`Hyperspy-0.3.0 beta 1 for Windows 32-bits 
+`Hyperspy-0.3.0 beta 2 for Windows 32-bits 
 <https://github.com/downloads/hyperspy/hyperspy/hyperspy-0.3.0beta2.win32.exe>`_
 
-`Hyperspy-0.3.0 beta 1 for Windows 64-bits 
+`Hyperspy-0.3.0 beta 2 for Windows 64-bits 
 <https://github.com/downloads/hyperspy/hyperspy/hyperspy-0.3.0beta2.win-amd64.exe>`_
 
 .. WARNING::
