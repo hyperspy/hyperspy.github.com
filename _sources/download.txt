@@ -50,7 +50,7 @@ The Windows installer for the current beta 2 release, can be downloaded using th
 Linux
 ------
 
-A Debian/Ubuntu package `can be downloaded here <https://github.com/downloads/hyperspy/hyperspy/python-hyperspy_0.3.0beta2-1_all.deb>`_.
+A Debian/Ubuntu package `can be downloaded here <https://github.com/downloads/hyperspy/hyperspy/python-hyperspy_0.3.0beta2.1-1_all.deb>`_.
 
 Please note that the latest version of Ubuntu and Debian, Oneiric and Wheezy respectively, are required.
 
