@@ -145,11 +145,7 @@ current features and goals of the project.</p>
 </div>
 <div class="section" id="digital-micrograph-raises-an-error-when-attempting-to-use-the-si-tool-in-a-spectrum-image-created-by-hyperspy-and-imported-using-the-importrpl-plugin">
 <h2>Digital Micrograph raises an error when attempting to use the SI tool in a spectrum image created by Hyperspy and imported using the ImportRPL plugin<a class="headerlink" href="#digital-micrograph-raises-an-error-when-attempting-to-use-the-si-tool-in-a-spectrum-image-created-by-hyperspy-and-imported-using-the-importrpl-plugin" title="Permalink to this headline">¶</a></h2>
-<p><strong>Answer:</strong> At least some versions of Digital Micrograph cannot use the SI tool on spectrum images of Real8 data type (this is equivalent to float64 in Python/Hyperspy).To exchange data with digital micrograph probably the best is to convert it to float32 before saving, e.g.:</p>
-<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">s</span><span class="o">.</span><span class="n">change_dtype</span><span class="p">(</span><span class="s">&#39;float32&#39;</span><span class="p">)</span> <span class="c"># Assuming that s contains the file that you want to export</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">s</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s">&#39;happy_exporting.rpl&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
+<p><strong>Answer:</strong> You are using an old version of ImportRPL. Please download the latest version of the <a class="reference internal" href="download.html#import-rpl"><em>ImportRPL Digital Micrograph plugin</em></a></p>
 </div>
 </div>
 
