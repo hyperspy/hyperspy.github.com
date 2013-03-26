@@ -30,6 +30,13 @@ The Windows installer for the current 0.5.1 beta release, can be downloaded usin
 
 .. WARNING::
     before installing Hyperspy the :ref:`the required libraries must be installed <install-dependencies>`
+    Please note that EPD 7.3 suffers from a bug that makes Hyperspy unusable. To workaround the problem while they fix it
+    you can install EPD Free instead or follow the instructions at the bottom `of this webpage.
+    <https://github.com/hyperspy/hyperspy/issues/51>`_ to fix the problem in EPD 7.3.
+    Because we have recurring issues with EPD we are working
+    in a new Hyperspy release that won't depend in any external libraries. We are sorry for the inconveniences caused to
+    Window users.
+     
 
 .. NOTE::
     To get the handy "Hyperspy here" functionality in the context menu Hyperspy must be installed with administrator rights.
