@@ -35,6 +35,10 @@ The Windows installer for the current 0.5.1 beta release, can be downloaded usin
     you can install EPD Free instead or follow the instructions at the bottom `of this webpage
     <https://github.com/hyperspy/hyperspy/issues/51>`_ to workaround the problem in EPD 7.3.
     
+    If Hyperspy does not work for you even after following this instructions, please report the problem in the 
+    `users mailing-list <http://groups.google.com/group/hyperspy-users>`_ or the 
+    `issues tracker <https://github.com/hyperspy/hyperspy/issues>`_.
+    
     Because we have recurring issues with EPD we are working
     in a new Hyperspy release that won't depend in any external libraries. We are sorry for the inconveniences caused to
     Window users.
