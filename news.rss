@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Hyperspy News</title>
+    <link>http://hyperspy.org/</link>
+    <description></description>
+    <lastBuildDate>Wed, 05 Jun 2013 16:35:58 GMT</lastBuildDate>
+    <generator>sphinxcontrib-newsfeed</generator>
+    <item>
+      <title>Hyperspy tutorial at the SFmu2013</title>
+      <link>http://hyperspy.org/news/sfmu2013.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;A tutorial on analysis of multidimensional spectra using Hyperspy is
+available as part of the official program of SFMu 2013.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/sfmu2013.html</guid>
+      <pubDate>Tue, 04 Jun 2013 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hyperspy 0.5.1  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.5.1.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of Hyperspy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.5.1.html</guid>
+      <pubDate>Fri, 28 Sep 2012 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hyperspy 0.5  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.5.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of Hyperspy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.5.html</guid>
+      <pubDate>Sat, 08 Sep 2012 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>New release of ImportRPL</title>
+      <link>http://hyperspy.org/news/release_importrpl.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of the ImportRPL  Digital Micrograph plugin.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_importrpl.html</guid>
+      <pubDate>Wed, 29 Feb 2012 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hyperspy 0.4.1  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.4.1.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of Hyperspy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.4.1.html</guid>
+      <pubDate>Mon, 16 Apr 2012 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hyperspy 0.4  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.4.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of Hyperspy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.4.html</guid>
+      <pubDate>Wed, 29 Feb 2012 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
