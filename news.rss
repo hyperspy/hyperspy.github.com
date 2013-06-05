@@ -4,8 +4,18 @@
     <title>Hyperspy News</title>
     <link>http://hyperspy.org/</link>
     <description></description>
-    <lastBuildDate>Wed, 05 Jun 2013 16:37:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jun 2013 16:44:39 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
+    <item>
+      <title>Hyperspy 0.6  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.6.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of Hyperspy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.6.html</guid>
+      <pubDate>Tue, 04 Jun 2013 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Hyperspy tutorial at the SFmu2013</title>
       <link>http://hyperspy.org/news/sfmu2013.html</link>
