@@ -32,7 +32,6 @@ provides, amongst others:
   energy-dispersive X-rays (EDX) data analysis.
 * Modular design for easy extensibility.
 
-Hyperspy is released under the GPL v3 license.
 
 Hyperspy is released under the GPL v3 license and is actively
 developed and used in research (see 
