@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -15,7 +14,7 @@
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '',
+        URL_ROOT:    './',
         VERSION:     '',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
@@ -127,21 +126,39 @@
             
   <div class="section" id="hyperspy-hyperspectral-data-analysis-toolbox">
 <h1>Hyperspy: Hyperspectral data analysis toolbox<a class="headerlink" href="#hyperspy-hyperspectral-data-analysis-toolbox" title="Permalink to this headline">¶</a></h1>
-<p>Hyperspy is an open source library providing tools for interactive data
-analysis of multidimensional datasets. It is specially well-suited (but not
-limited) to spectroscopy data analysis.</p>
-<p>Main features:</p>
+<p>Hyperspy is an open source Python library which provides tools to facilitate
+the interactive data analysis of multidimensional datasets that can be
+described as multidimensional arrays of a given signal (e.g. a 2D array of
+spectra a.k.a spectrum image). It aims to make it easy and natural to apply
+analytical procedures that operate on an individual signal to multidimensional
+arrays, as well as providing easy access to analytical tools that exploit the
+multidimensionality of the dataset. It does so by breaking the equivalence of
+the axes in an array.</p>
+<div class="section" id="highlights">
+<h2>Highlights<a class="headerlink" href="#highlights" title="Permalink to this headline">¶</a></h2>
+<p>Hyperspy  provides tools that operate on numpy arrays without subclassing them
+and therefore it is fully compatible with the scientific Python ecosystem. It
+provides, amongst others:</p>
 <ul class="simple">
-<li>Data structures to easily operate on multidimensional datasets with
-integrated indexing and iterators.</li>
-<li>Visualization of n-dimensional spectra and images.</li>
+<li>Named and scaled axes.</li>
+<li>Axes indexing by name.</li>
+<li>Distintion between  <em>signal</em> and <em>navigation</em> axes.</li>
+<li>Iterator over the navigation axes.</li>
+<li>Advanced data indexing capabilities including separate indexing for the
+<em>signal</em> and <em>navigation</em> axes and data indexing using using axis units.</li>
+<li>Visualization tools for n-dimensional spectra and images based on matplotlib.</li>
 <li>Curve fitting.</li>
-<li>Machine learning e.g. PCA, ICA...</li>
+<li>Easy access to machine learning e.g. PCA, ICA...</li>
 <li>Reading and writing of multidimensional datasets in multiple file formats.</li>
+<li>Specialized classes for electron-energy loss spectroscopy (EELS) and
+energy-dispersive X-rays (EDX) data analysis.</li>
+<li>Modular design for easy extensibility.</li>
 </ul>
+<p>Hyperspy is released under the GPL v3 license.</p>
 <p>Hyperspy is released under the GPL v3 license and is actively
 developed and used in research (see
 <a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/bibliography.html">the Bibliography section of the User Guide</a>)</p>
+</div>
 <div class="section" id="news">
 <h2>News<a class="headerlink" href="#news" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
@@ -214,7 +231,7 @@ please acknowledge this fact by citing the project. Please, read on
       
     <div class="footer">
         &copy; Copyright The Hyperspy development team.
-      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b2.
     </div>
     </div>
 
