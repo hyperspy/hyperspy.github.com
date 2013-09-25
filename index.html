@@ -129,11 +129,14 @@
 <p>Hyperspy is an open source Python library which provides tools to facilitate
 the interactive data analysis of multidimensional datasets that can be
 described as multidimensional arrays of a given signal (e.g. a 2D array of
-spectra a.k.a spectrum image). It aims to make it easy and natural to apply
-analytical procedures that operate on an individual signal to multidimensional
-arrays, as well as providing easy access to analytical tools that exploit the
-multidimensionality of the dataset. It does so by breaking the equivalence of
-the axes in an array.</p>
+spectra a.k.a spectrum image).</p>
+<p>Hyperpsy aims at making it easy and natural to apply analytical procedures that
+operate on an individual signal to multidimensional arrays, as well as
+providing easy access to analytical tools that exploit the multidimensionality
+of the dataset.</p>
+<p>Its modular structure makes it easy to add features to analyze different kind
+of signals. Currently there are specialized tools to analyze electron
+energy-loss spectroscopy (EELS) and energy dispersive X-rays (EDX) data.</p>
 <div class="section" id="highlights">
 <h2>Highlights<a class="headerlink" href="#highlights" title="Permalink to this headline">¶</a></h2>
 <p>Hyperspy  provides tools that operate on numpy arrays without subclassing them
@@ -143,16 +146,16 @@ provides, amongst others:</p>
 <li>Named and scaled axes.</li>
 <li>Axes indexing by name.</li>
 <li>Distintion between  <em>signal</em> and <em>navigation</em> axes.</li>
-<li>Iterator over the navigation axes.</li>
+<li>Iteration over the navigation axes.</li>
 <li>Advanced data indexing capabilities including separate indexing for the
 <em>signal</em> and <em>navigation</em> axes and data indexing using using axis units.</li>
 <li>Visualization tools for n-dimensional spectra and images based on matplotlib.</li>
 <li>Curve fitting.</li>
 <li>Easy access to machine learning e.g. PCA, ICA...</li>
 <li>Reading and writing of multidimensional datasets in multiple file formats.</li>
+<li>Modular design for easy extensibility.</li>
 <li>Specialized classes for electron-energy loss spectroscopy (EELS) and
 energy-dispersive X-rays (EDX) data analysis.</li>
-<li>Modular design for easy extensibility.</li>
 </ul>
 <p>Hyperspy is released under the GPL v3 license and is actively
 developed and used in research (see
