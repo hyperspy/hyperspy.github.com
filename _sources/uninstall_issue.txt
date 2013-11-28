@@ -53,7 +53,7 @@ Finding your HyperSpy installation folder
 
 3. Left-click in "Open file location".
 
-Following the above instruction the windows file manager should appear showing 
+Following the above instruction the file manager should appear showing 
 the HyperSpy installation folder as in the following image.
 
    .. figure::  images/hyperspy_installation_folder.png
