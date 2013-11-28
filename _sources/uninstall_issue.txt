@@ -74,12 +74,12 @@ Uninstalling HyperSpy 0.6 if your installation is affected
 
 If you are affected by this bug you need to uninstall HyperSpy manually. It is
 *strongly reccomended* uninstalling HyperSpy manually even if you plan to carry
-on using HyperSpy because you may forget about this issue and use the
-uninstaller to uninstall HyperSpy 0.6 in the future. Afterwards you can proceed
-to install HyperSpy 0.6 without changing the default installation folder—in
-this way you will not be affected by this bug—or a newer that do not suffer
-from this bug when available.
+on using HyperSpy because, in the future, you may forget about this issue and
+use the uninstaller to uninstall HyperSpy 0.6.
 
+We are currently working in fixing this bug and making a new release. However,
+if after uninstalling HyperSpy 0.6 you want to carry on using it you can safely
+reinstall HyperSpy 0.6 *without changing the default installation folder*.
 Manually uninstalling HyperSpy 0.6 in Windows
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
