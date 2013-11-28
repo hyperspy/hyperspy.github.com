@@ -1,0 +1,288 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Uninstalling HyperSpy 0.6 in Windows &mdash; Hyperspy</title>
+    
+    <link rel="stylesheet" href="_static/agogo.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="shortcut icon" href="_static/hyperspy_logo.ico"/>
+  
+    <link rel="top" title="Hyperspy" href="index.html" />
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="Hyperspy News"
+        href="/news.rss" />
+
+ 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25260850-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  </head>
+  <body>
+    <div class="header-wrapper">
+      <div class="header">
+          <div class="logo"><a href="index.html">
+            <img class="logo" src="_static/hyperspy_banner.png" alt="Logo"/>
+          </a></div>
+       
+        <div class="rel">
+          <a href="index.html">Home</a> · 
+<a href="download.html">Download</a> · 
+<a href="http://hyperspy.org/hyperspy-doc/current/index.html">Documentation</a> · 
+<a href="http://hyperspy.org/hyperspy-doc/dev/examples/index.html">Examples</a> ·
+<a href="news.html">News</a> · 
+<a href="support.html">Support</a> · 
+<a href="http://hyperspy.org/hyperspy-doc/dev/citing.html">Citing</a>
+        </div>
+       </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="content">
+             
+            
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"> 
+<div class="sidebarblock">
+<h3>Versions</h3>
+
+<div class="tile"><h4>Stable</h4>
+     Sorry, no stable release yet<br/>
+
+</div>
+
+<div class="tile"><h4>Beta</h4>
+    0.6<br/>
+    <a href="http://hyperspy.org/download.html#beta-releases">Download</a>
+</div>
+
+<div class="tile"><h4>Development</h4>
+    dev<br/>
+    <a href="https://github.com/hyperspy/hyperspy">Github</a>
+</div>
+</div>
+<div class="sidebarblock">
+<h3>Links</h3>
+
+  <ul class="simple">
+    <li><a class="reference external" href="https://github.com/hyperspy/hyperspy/issues">
+            Issue tracker</a></li>
+    <li>Mailing lists:<br/><span style="padding-left: 1em;">
+        <a class="reference external" href="http://groups.google.com/group/hyperspy-users">
+            User</a> · 
+        <a class="reference external" href="http://groups.google.com/group/hyperspy-devel">
+            Dev</a>
+        </li></span>
+  </ul>
+</div>
+
+<div class="sidebarblock">
+  <h3>More Info</h3>
+  <ul class="simple">
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="developer.html">Info for developers</a></li>
+    <li><a href="trainings.html">Trainings</a></li>
+  </ul>          
+</div>
+        </div>
+      </div>
+        
+        <div class="document">
+            
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="uninstalling-hyperspy-0-6-in-windows">
+<h1>Uninstalling HyperSpy 0.6 in Windows<a class="headerlink" href="#uninstalling-hyperspy-0-6-in-windows" title="Permalink to this headline">¶</a></h1>
+<p>The HyperSpy version 0.6 Windows <em>full installer</em>, i.e. the installer that does
+not require the installation of any other library, has a bug that <strong>can cause
+the deletion of files unrelated to HyperSpy</strong> in customized installations. If
+you have installed HyperSpy 0.6 using the <em>full installers</em> please read further
+before uninstalling HyperSpy 0.6.</p>
+<div class="section" id="how-do-i-know-if-my-installation-is-affected">
+<h2>How do I know if my installation is affected?<a class="headerlink" href="#how-do-i-know-if-my-installation-is-affected" title="Permalink to this headline">¶</a></h2>
+<p>This issue should be rare but it has already affected <a class="reference external" href="https://groups.google.com/d/msg/hyperspy-users/xEkQXlY345I/HZ8-0v9kfNkJ">at least one
+installation</a>.
+Given the seriousness of the potential consequences it is worth to verify that
+your installation is not affected by this bug before uninstalling HyperSpy.
+You may be affected if:</p>
+<ul class="simple">
+<li>You have installed HyperSpy 0.6 in Windows using the <em>full installer</em>. (This
+issue affects both the 32bit and 64bit versions.) If you have installed
+HyperSpy in an already existing Python installation (e.g. EPD, Canopy,
+Anaconda...) using the <a class="reference external" href="https://pypi.python.org/pypi/hyperspy">HyperSpy python installers</a> this bug does not affect you.</li>
+<li>You have not installed HyperSpy in the default location and you have
+selected an already-existing, non-empty folder to install HyperSpy.</li>
+</ul>
+<p>If you do not know where you have installed HyperSpy 0.6 you can find it out as
+follows:</p>
+<div class="section" id="finding-your-hyperspy-installation-folder">
+<span id="find-hyperspy-folder"></span><h3>Finding your HyperSpy installation folder<a class="headerlink" href="#finding-your-hyperspy-installation-folder" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">Find HyperSpy in the Windows &#8220;Start Menu&#8221;.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/start_menu_hyperspy.png"><img alt="_images/start_menu_hyperspy.png" src="_images/start_menu_hyperspy.png" style="width: 200px;" /></a>
+</div>
+</li>
+<li><p class="first">Right-click on the &#8220;Uninstall HyperSpy&#8221; icon to open the context menu.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/start_menu_context_menu.png"><img alt="_images/start_menu_context_menu.png" src="_images/start_menu_context_menu.png" style="width: 300px;" /></a>
+</div>
+</li>
+<li><p class="first">Left-click in &#8220;Open file location&#8221;.</p>
+</li>
+</ol>
+<p>Following the above instruction the windows file manager should appear showing
+the HyperSpy installation folder as in the following image.</p>
+<blockquote>
+<div><div class="figure align-center">
+<a class="reference internal image-reference" href="_images/hyperspy_installation_folder.png"><img alt="_images/hyperspy_installation_folder.png" src="_images/hyperspy_installation_folder.png" style="width: 500px;" /></a>
+</div>
+</div></blockquote>
+<p>Normally this folder contains only HyperSpy related files. However, if you have
+customized the installation folder during the installation process this folder
+can contain other files that you do not want to delete. In the worst scenarios
+this folder can be your &#8220;My Documents&#8221;, &#8220;Program Files&#8221; or even your drive
+&#8220;C:/&#8221; folder (!). If that is your case <em>do not use the uninstaller</em> to
+uninstall HyperSpy and follow the following instructions instead to uninstall
+it.</p>
+</div>
+</div>
+<div class="section" id="uninstalling-hyperspy-0-6-if-your-installation-is-affected">
+<h2>Uninstalling HyperSpy 0.6 if your installation is affected<a class="headerlink" href="#uninstalling-hyperspy-0-6-if-your-installation-is-affected" title="Permalink to this headline">¶</a></h2>
+<p>If you are affected by this bug you need to uninstall HyperSpy manually. It is
+<em>strongly reccomended</em> uninstalling HyperSpy manually even if you plan to carry
+on using HyperSpy because you may forget about this issue and use the
+uninstaller to uninstall HyperSpy 0.6 in the future. Afterwards you can proceed
+to install HyperSpy 0.6 without changing the default installation folder—in
+this way you will not be affected by this bug—or a newer that do not suffer
+from this bug when available.</p>
+<div class="section" id="manually-uninstalling-hyperspy-0-6-in-windows">
+<h3>Manually uninstalling HyperSpy 0.6 in Windows<a class="headerlink" href="#manually-uninstalling-hyperspy-0-6-in-windows" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You only need to uninstall HyperSpy following this instructions if your
+installation is affected by this bug.</p>
+</div>
+<div class="section" id="uninstall-the-context-menu-entries">
+<h4>Uninstall the context menu entries<a class="headerlink" href="#uninstall-the-context-menu-entries" title="Permalink to this headline">¶</a></h4>
+<p>This step is only necessary if you have installed HyperSpy with administrator
+rights.</p>
+<ol class="arabic">
+<li><p class="first">Find HyperSpy in the Windows &#8220;Start Menu&#8221;.</p>
+<blockquote>
+<div><div class="figure align-center">
+<a class="reference internal image-reference" href="_images/start_menu_qtconsole.png"><img alt="_images/start_menu_qtconsole.png" src="_images/start_menu_qtconsole.png" style="width: 200px;" /></a>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Right-click on the &#8220;HyperSpy QtConsole&#8221; icon to open the context menu.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/start_menu_context_menu_qtconsole.png"><img alt="_images/start_menu_context_menu_qtconsole.png" src="_images/start_menu_context_menu_qtconsole.png" style="width: 300px;" /></a>
+</div>
+</li>
+<li><p class="first">Left-click on &#8220;Run as administrator&#8221;. The QtConsole should open.</p>
+</li>
+<li><p class="first">Type &#8221;!uninstall_hyperspy_here&#8221; in the qtconsole and press enter.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/qtconsole_uninstall_hyperspy_here.png"><img alt="_images/qtconsole_uninstall_hyperspy_here.png" src="_images/qtconsole_uninstall_hyperspy_here.png" style="width: 300px;" /></a>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="delete-the-hyperspy-files">
+<h4>Delete the HyperSpy files<a class="headerlink" href="#delete-the-hyperspy-files" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Follow <a class="reference internal" href="#find-hyperspy-folder"><em>these instructions</em></a> to find your HyperSpy
+installation folder.</li>
+<li>Delete manually the &#8220;python-2.7.4&#8221; folder.</li>
+<li>Delete manually following files:<ul>
+<li>IPython Notebook.exe</li>
+<li>IPython Qt Console.exe</li>
+<li>python-2.7.4.amd64</li>
+<li>Qt Assistant.exe</li>
+<li>Qt Demo.exe</li>
+<li>Qt Designer.exe</li>
+<li>Qt Linguist.exe</li>
+<li>Spyder (light).exe</li>
+<li>Spyder.exe</li>
+<li>Uninstaller.exe</li>
+<li>WinPython Command Prompt.exe</li>
+<li>WinPython Control Panel.exe</li>
+</ul>
+</li>
+</ol>
+</div>
+<div class="section" id="delete-the-startmenu-entry">
+<h4>Delete the StartMenu entry<a class="headerlink" href="#delete-the-startmenu-entry" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic">
+<li><p class="first">Find HyperSpy in the Windows &#8220;Start Menu&#8221;.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Right-click on the HyperSpy entry to open the context menu.</dt>
+<dd><div class="first last figure align-center">
+<a class="reference internal image-reference" href="_images/delete_start_menu_hyperspy.png"><img alt="_images/delete_start_menu_hyperspy.png" src="_images/delete_start_menu_hyperspy.png" style="width: 200px;" /></a>
+</div>
+</dd>
+</dl>
+</li>
+<li><p class="first">Left-click on &#8220;Delete&#8221;.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+        </div>
+        <div class="clearer"></div>
+    </div>
+    </div>
+
+<a href="https://github.com/hyperspy/hyperspy"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+    <div class="footer-wrapper">
+      
+    <div class="footer">
+        &copy; Copyright The Hyperspy development team.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b2.
+    </div>
+    </div>
+
+  </body>
+</html>
