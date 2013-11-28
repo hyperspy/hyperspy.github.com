@@ -49,8 +49,9 @@ News
 
 .. WARNING::
    
-   **Uninstalling HyperSpy in Windows can delete unrelated files.** This issue
-   `was reported
+   **Read this before uninstalling HyperSpy in Windows**. Uninstalling HyperSpy
+   in Windows can, in exceptional circumstances, delete unrelated files. This
+   issue `was reported
    <https://groups.google.com/d/msg/hyperspy-users/xEkQXlY345I/HZ8-0v9kfNkJ>`_
    on the 27th of November 2013. It only affects the full installers for
    Windows of HyperSpy version 0.6 when installing in certain customized
