@@ -80,6 +80,7 @@ use the uninstaller to uninstall HyperSpy 0.6.
 We are currently working in fixing this bug and making a new release. However,
 if after uninstalling HyperSpy 0.6 you want to carry on using it you can safely
 reinstall HyperSpy 0.6 *without changing the default installation folder*.
+
 Manually uninstalling HyperSpy 0.6 in Windows
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
