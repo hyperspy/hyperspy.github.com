@@ -26,7 +26,7 @@ the following links:
 .. NOTE::
    
    **Read this before installing or uninstalling HyperSpy 0.6 in Windows**.
-   There is a `bug <https://github.com/hyperspy/hyperspy/issues/116>` in the
+   There is a `bug <https://github.com/hyperspy/hyperspy/issues/116>`_ in the
    installers of HyperSpy 0.6 for Windows. If you are about to install HyperSpy
    0.6, you can avoid this issue by not changing the default installation
    folder during the installation process. If you have already installed
