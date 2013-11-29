@@ -42,7 +42,7 @@ Full installers
    folder during the installation process. If you have already installed
    HyperSpy 0.6 for Windows :ref:`read this <uninstallation_issue>`.
 
-`Hyperspy-0.6 beta for Windows 32-bits
+*  `Hyperspy-0.6 beta for Windows 32-bits
 <http://www-hrem.msm.cam.ac.uk/hyperspy/Hyperspy0.6_32bit.exe>`_
 
 `Hyperspy-0.6 beta for Windows 64-bits
@@ -51,10 +51,11 @@ Full installers
 .. NOTE::
 
 
-   If Hyperspy fails to start you may also need to install the 
-   Microsoft Visual C++ 2008 redistributable packages 
-   (`64 bit <http://www.microsoft.com/download/en/details.aspx?id=15336>`_ or 
-   `32 bit <http://www.microsoft.com/download/en/details.aspx?id=29>`_).
+   If Hyperspy fails to start after installing using the full installer for
+   Windows you may also need to install the Microsoft Visual C++ 2008
+   redistributable packages (`64 bit
+   <http://www.microsoft.com/download/en/details.aspx?id=15336>`_ or `32 bit
+   <http://www.microsoft.com/download/en/details.aspx?id=29>`_).
 
 .. _python_installers:
  
