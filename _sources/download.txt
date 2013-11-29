@@ -20,11 +20,15 @@ Beta Releases
 Windows
 -------
 
-There are two ways to install HyperSpy in Windows i) installing using the "full 
-nstaller" that install all the required libraries ii) installing a Python
-distribution and using the Python installers. The first option is reccomended
-for most users.
+There are two ways to install HyperSpy in Windows:
 
+1. Using the :ref:`"full installer" <full_installers>` that install all the
+   required libraries. This is the reccomended installation method.
+2. Using the :ref:`Python installers <python_installers>`. This method requires
+   installing Python and all the required libraries and is only reccomended
+   for advanced users.
+
+.. _full_installers:
 
 Full installers
 ~~~~~~~~~~~~~~~
@@ -52,6 +56,8 @@ Full installers
    (`64 bit <http://www.microsoft.com/download/en/details.aspx?id=15336>`_ or 
    `32 bit <http://www.microsoft.com/download/en/details.aspx?id=29>`_).
 
+.. _python_installers:
+ 
 Python installers
 ~~~~~~~~~~~~~~~~~
 
