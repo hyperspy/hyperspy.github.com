@@ -42,7 +42,7 @@ Full installers
    folder during the installation process. If you have already installed
    HyperSpy 0.6 for Windows :ref:`read this <uninstallation_issue>`.
 
-*  `Hyperspy-0.6 beta for Windows 32-bits
+`Hyperspy-0.6 beta for Windows 32-bits
 <http://www-hrem.msm.cam.ac.uk/hyperspy/Hyperspy0.6_32bit.exe>`_
 
 `Hyperspy-0.6 beta for Windows 64-bits
