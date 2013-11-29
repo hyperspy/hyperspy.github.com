@@ -18,7 +18,7 @@ this problem in some rare circumstances.
 If you want to uninstall HyperSpy 0.6 before we release a fix for this issue
 you can read the rest of this document that explains how to determine if your
 installation is affected by this issue and how to manually uninstall HyperSpy
-0.6 if that is the case. If after reading after reading this document you are
+0.6 if that is the case. If after reading this document you are
 still unsure about what to do, please do not heasitate to contact us through
 the `developers mailing list <http://groups.google.com/group/hyperspy-devel>`_
 before taking any action.
