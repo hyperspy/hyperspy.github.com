@@ -11,7 +11,7 @@ have installed HyperSpy 0.6 using the *full installers* please read further
 before uninstalling HyperSpy 0.6.
 
 We are currently working on this issue and we will release a fix as soon as
-possible. Until we release a fix we strongly reccommend not
+possible. Until we release a fix we strongly reccommend not to
 uninstall HyperSpy. Using HyperSpy is safe, only uninstalling it can trigger
 this problem in some rare circumstances.
 
