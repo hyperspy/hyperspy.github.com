@@ -7,7 +7,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Developer Zone &mdash; Hyperspy</title>
+    <title>Developer Zone &mdash; HyperSpy</title>
     
     <link rel="stylesheet" href="_static/agogo.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -26,7 +26,7 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="shortcut icon" href="_static/hyperspy_logo.ico"/>
   
-    <link rel="top" title="Hyperspy" href="index.html" />
+    <link rel="top" title="HyperSpy" href="index.html" />
   <link rel="alternate"
         type="application/rss+xml"
         title="Hyperspy News"
@@ -48,7 +48,7 @@
 </script>
 
   </head>
-  <body>
+  <body role="document">
     <div class="header-wrapper">
       <div class="header">
           <div class="logo"><a href="index.html">
@@ -71,7 +71,7 @@
       <div class="content">
              
             
-      <div class="sphinxsidebar">
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper"> 
 <div class="sidebarblock">
 <h3>Versions</h3>
@@ -121,33 +121,35 @@
             
       <div class="documentwrapper">
         <div class="bodywrapper">
-          <div class="body">
+          <div class="body" role="main">
             
   <div class="section" id="developer-zone">
 <span id="id1"></span><h1><strong>Developer Zone</strong><a class="headerlink" href="#developer-zone" title="Permalink to this headline">¶</a></h1>
-<p>Welcome to Hyperspy&#8217;s Developer Zone.  This page has information about Hyperspy&#8217;s development.  Hyperspy is developed by a distributed team of developers using
+<p>Welcome to HyperSpy&#8217;s Developer Zone.  This page has information about HyperSpy&#8217;s development.  HyperSpy is developed by a distributed team of developers using
 tools like <a class="reference external" href="http://git-scm.com">Git</a> and <a class="reference external" href="http://github.com">GitHub</a>.</p>
 <div class="section" id="git-repositories">
 <h2>Git Repositories<a class="headerlink" href="#git-repositories" title="Permalink to this headline">¶</a></h2>
-<p>Hyperspy development has been moved to <a class="reference external" href="http://github.com/hyperspy">GitHub</a>, using the  <a class="reference external" href="http://git-scm.com">Git</a> distributed version control system.</p>
-<p>The development version of Hyperspy can be downloaded from our GitHub repository by doing:</p>
-<div class="highlight-python"><pre>git clone git://github.com/hyperspy/hyperspy.git</pre>
+<p>HyperSpy development has been moved to <a class="reference external" href="http://github.com/hyperspy">GitHub</a>, using the  <a class="reference external" href="http://git-scm.com">Git</a> distributed version control system.</p>
+<p>The development version of HyperSpy can be downloaded from our GitHub repository by doing:</p>
+<div class="highlight-python"><div class="highlight"><pre>git clone git://github.com/hyperspy/hyperspy.git
+</pre></div>
 </div>
 </div>
 <div class="section" id="running-from-a-git-checkout-without-reinstalling-after-every-update">
 <h2>Running from a Git checkout without reinstalling after every update<a class="headerlink" href="#running-from-a-git-checkout-without-reinstalling-after-every-update" title="Permalink to this headline">¶</a></h2>
-<p>The best way to run Hyperspy from Git development code is to install pip and run:</p>
-<div class="highlight-python"><pre>pip install -e -r pip-req.txt ./</pre>
+<p>The best way to run HyperSpy from Git development code is to install pip and run:</p>
+<div class="highlight-python"><div class="highlight"><pre>pip install -e -r pip-req.txt ./
+</pre></div>
 </div>
-<p>in your git checkout directory. This way, the development version will be available as your &#8220;system&#8221; Hyperspy, and this will also work for projects that embed Hyperspy.</p>
+<p>in your git checkout directory. This way, the development version will be available as your &#8220;system&#8221; HyperSpy, and this will also work for projects that embed HyperSpy.</p>
 </div>
 <div class="section" id="bug-reports-and-feature-requests">
 <span id="reporting-bug"></span><h2>Bug Reports and Feature Requests<a class="headerlink" href="#bug-reports-and-feature-requests" title="Permalink to this headline">¶</a></h2>
-<p>We want Hyperspy to be as bug-free as possible, so we encourage our users to  <a class="reference external" href="http://github.com/hyperspy/hyperspy/issues">report</a> all bugs they find, as well as important feature requests (those should be marked as &#8220;Whishlist&#8221; items).  If you don&#8217;t have a Github account yet, you can <a class="reference external" href="https://github.com/signup/free">create one for free</a>.</p>
+<p>We want HyperSpy to be as bug-free as possible, so we encourage our users to  <a class="reference external" href="http://github.com/hyperspy/hyperspy/issues">report</a> all bugs they find, as well as important feature requests (those should be marked as &#8220;Wishlist&#8221; items).  If you don&#8217;t have a Github account yet, you can <a class="reference external" href="https://github.com/signup/free">create one for free</a>.</p>
 </div>
 <div class="section" id="developer-mailing-list">
 <h2>Developer Mailing List<a class="headerlink" href="#developer-mailing-list" title="Permalink to this headline">¶</a></h2>
-<p>We have a <a class="reference external" href="mailto:hyperspy-devel&#37;&#52;&#48;googlegroups&#46;com">mailing list</a> for discussions about the development of Hyperspy. It is hosted in Google Groups. If you want to join in without a Google account send an email to <a class="reference external" href="mailto:hyperspy-devel+subscribe&#37;&#52;&#48;googlegroups&#46;com">hyperspy-devel+subscribe<span>&#64;</span>googlegroups<span>&#46;</span>com</a>.  There is also <a class="reference external" href="http://groups.google.com/group/hyperspy-devel">a web-based version</a> of this list but you need to have a Google account to use it.</p>
+<p>We have a <a class="reference external" href="mailto:hyperspy-devel&#37;&#52;&#48;googlegroups&#46;com">mailing list</a> for discussions about the development of HyperSpy. It is hosted in Google Groups. If you want to join in without a Google account send an email to <a class="reference external" href="mailto:hyperspy-devel+subscribe&#37;&#52;&#48;googlegroups&#46;com">hyperspy-devel+subscribe<span>&#64;</span>googlegroups<span>&#46;</span>com</a>.  There is also <a class="reference external" href="http://groups.google.com/group/hyperspy-devel">a web-based version</a> of this list but you need to have a Google account to use it.</p>
 </div>
 <div class="section" id="external-dependencies">
 <h2>External Dependencies<a class="headerlink" href="#external-dependencies" title="Permalink to this headline">¶</a></h2>
@@ -168,9 +170,9 @@ tools like <a class="reference external" href="http://git-scm.com">Git</a> and <
 
     <div class="footer-wrapper">
       
-    <div class="footer">
-        &copy; Copyright The Hyperspy development team.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b2.
+    <div class="footer" role="contentinfo">
+        &copy; Copyright The HyperSpy development team.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3a0.
     </div>
     </div>
 

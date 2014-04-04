@@ -7,7 +7,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>FAQ &mdash; Hyperspy</title>
+    <title>FAQ &mdash; HyperSpy</title>
     
     <link rel="stylesheet" href="_static/agogo.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -26,7 +26,7 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="shortcut icon" href="_static/hyperspy_logo.ico"/>
   
-    <link rel="top" title="Hyperspy" href="index.html" />
+    <link rel="top" title="HyperSpy" href="index.html" />
   <link rel="alternate"
         type="application/rss+xml"
         title="Hyperspy News"
@@ -48,7 +48,7 @@
 </script>
 
   </head>
-  <body>
+  <body role="document">
     <div class="header-wrapper">
       <div class="header">
           <div class="logo"><a href="index.html">
@@ -71,7 +71,7 @@
       <div class="content">
              
             
-      <div class="sphinxsidebar">
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper"> 
 <div class="sidebarblock">
 <h3>Versions</h3>
@@ -121,7 +121,7 @@
             
       <div class="documentwrapper">
         <div class="bodywrapper">
-          <div class="body">
+          <div class="body" role="main">
             
   <div class="section" id="faq">
 <span id="id1"></span><h1>FAQ<a class="headerlink" href="#faq" title="Permalink to this headline">¶</a></h1>
@@ -129,8 +129,8 @@
 <div class="contents local topic" id="contents">
 <ul class="simple">
 <li><a class="reference internal" href="#why-did-you-change-the-name-of-the-project" id="id2">Why did you change the name of the project</a></li>
-<li><a class="reference internal" href="#hyperspy-is-very-cool-but-i-want-to-export-the-data-to-analyse-it-with-x-that-is-so-much-cooler-is-it-possible" id="id3">Hyperspy is very cool, but I want to export the data to analyse it with X that is so much cooler, is it possible?</a></li>
-<li><a class="reference internal" href="#digital-micrograph-raises-an-error-when-attempting-to-use-the-si-tool-in-a-spectrum-image-created-by-hyperspy-and-imported-using-the-importrpl-plugin" id="id4">Digital Micrograph raises an error when attempting to use the SI tool in a spectrum image created by Hyperspy and imported using the ImportRPL plugin</a></li>
+<li><a class="reference internal" href="#hyperspy-is-very-cool-but-i-want-to-export-the-data-to-analyse-it-with-x-that-is-so-much-cooler-is-it-possible" id="id3">HyperSpy is very cool, but I want to export the data to analyse it with X that is so much cooler, is it possible?</a></li>
+<li><a class="reference internal" href="#digital-micrograph-raises-an-error-when-attempting-to-use-the-si-tool-in-a-spectrum-image-created-by-hyperspy-and-imported-using-the-importrpl-plugin" id="id4">Digital Micrograph raises an error when attempting to use the SI tool in a spectrum image created by HyperSpy and imported using the ImportRPL plugin</a></li>
 </ul>
 </div>
 <div class="section" id="why-did-you-change-the-name-of-the-project">
@@ -145,11 +145,11 @@ that &#8220;Hyperspectral Python&#8221; describes much better the
 current features and goals of the project.</p>
 </div>
 <div class="section" id="hyperspy-is-very-cool-but-i-want-to-export-the-data-to-analyse-it-with-x-that-is-so-much-cooler-is-it-possible">
-<h2>Hyperspy is very cool, but I want to export the data to analyse it with X that is so much cooler, is it possible?<a class="headerlink" href="#hyperspy-is-very-cool-but-i-want-to-export-the-data-to-analyse-it-with-x-that-is-so-much-cooler-is-it-possible" title="Permalink to this headline">¶</a></h2>
-<p><strong>Answer:</strong> Sure! By default Hyperspy saves the data in HDF5, which is an open standard supported by most data analysis software either by default or via plugins. If your favourite data analysis package does not support HDF5 then you can check if it does support any of the other formats to which Hyperspy can write, see <a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/io.html#supported-formats" title="(in Hyperspy v0.6)"><em>Supported formats</em></a>. If X is Gatan&#8217;s Digital Micrograph, which does not support HDF5, you can save to the <a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/io.html#ripple-format" title="(in Hyperspy v0.6)"><em>Ripple</em></a> and use the <a class="reference internal" href="download.html#import-rpl"><em>ImportRPL Digital Micrograph plugin</em></a> to read the RPL file.</p>
+<h2>HyperSpy is very cool, but I want to export the data to analyse it with X that is so much cooler, is it possible?<a class="headerlink" href="#hyperspy-is-very-cool-but-i-want-to-export-the-data-to-analyse-it-with-x-that-is-so-much-cooler-is-it-possible" title="Permalink to this headline">¶</a></h2>
+<p><strong>Answer:</strong> Sure! By default HyperSpy saves the data in HDF5, which is an open standard supported by most data analysis software either by default or via plugins. If your favourite data analysis package does not support HDF5 then you can check if it does support any of the other formats to which HyperSpy can write, see <a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/io.html#supported-formats" title="(in HyperSpy v0.7)"><em>Supported formats</em></a>. If X is Gatan&#8217;s Digital Micrograph, which does not support HDF5, you can save to the <a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/io.html#ripple-format" title="(in HyperSpy v0.7)"><em>Ripple</em></a> and use the <a class="reference internal" href="download.html#import-rpl"><em>ImportRPL Digital Micrograph plugin</em></a> to read the RPL file.</p>
 </div>
 <div class="section" id="digital-micrograph-raises-an-error-when-attempting-to-use-the-si-tool-in-a-spectrum-image-created-by-hyperspy-and-imported-using-the-importrpl-plugin">
-<h2>Digital Micrograph raises an error when attempting to use the SI tool in a spectrum image created by Hyperspy and imported using the ImportRPL plugin<a class="headerlink" href="#digital-micrograph-raises-an-error-when-attempting-to-use-the-si-tool-in-a-spectrum-image-created-by-hyperspy-and-imported-using-the-importrpl-plugin" title="Permalink to this headline">¶</a></h2>
+<h2>Digital Micrograph raises an error when attempting to use the SI tool in a spectrum image created by HyperSpy and imported using the ImportRPL plugin<a class="headerlink" href="#digital-micrograph-raises-an-error-when-attempting-to-use-the-si-tool-in-a-spectrum-image-created-by-hyperspy-and-imported-using-the-importrpl-plugin" title="Permalink to this headline">¶</a></h2>
 <p><strong>Answer:</strong> You are using an old version of ImportRPL. Please download the latest version of the <a class="reference internal" href="download.html#import-rpl"><em>ImportRPL Digital Micrograph plugin</em></a></p>
 </div>
 </div>
@@ -167,9 +167,9 @@ current features and goals of the project.</p>
 
     <div class="footer-wrapper">
       
-    <div class="footer">
-        &copy; Copyright The Hyperspy development team.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b2.
+    <div class="footer" role="contentinfo">
+        &copy; Copyright The HyperSpy development team.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3a0.
     </div>
     </div>
 

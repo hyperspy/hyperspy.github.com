@@ -1,26 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>Hyperspy News</title>
+    <title>HyperSpy News</title>
     <link>http://hyperspy.org/</link>
     <description></description>
-    <lastBuildDate>Mon, 02 Dec 2013 14:16:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Apr 2014 16:03:02 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
       <title>Hyperspy 0.6  has been released!</title>
-      <link>http://hyperspy.org/news/release_0.6.html</link>
+      <link>http://hyperspy.org/news/release_0.7.html</link>
       <description>&lt;div class="compound"&gt;
 &lt;p&gt;We are proud to announce a new release of Hyperspy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.7.html</guid>
+      <pubDate>Tue, 04 Jun 2013 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy 0.6  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.6.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of HyperSpy.&lt;/p&gt;
 &lt;/div&gt;
 </description>
       <guid>http://hyperspy.org/news/release_0.6.html</guid>
       <pubDate>Tue, 04 Jun 2013 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Hyperspy tutorial at the SFmu2013</title>
+      <title>HyperSpy tutorial at the SFmu2013</title>
       <link>http://hyperspy.org/news/sfmu2013.html</link>
       <description>&lt;div class="compound"&gt;
-&lt;p&gt;A tutorial on analysis of multidimensional spectra using Hyperspy is
+&lt;p&gt;A tutorial on analysis of multidimensional spectra using HyperSpy is
 available as part of the official program of SFMu 2013.&lt;/p&gt;
 &lt;/div&gt;
 </description>
@@ -28,20 +38,20 @@ available as part of the official program of SFMu 2013.&lt;/p&gt;
       <pubDate>Tue, 04 Jun 2013 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Hyperspy 0.5.1  has been released!</title>
+      <title>HyperSpy 0.5.1  has been released!</title>
       <link>http://hyperspy.org/news/release_0.5.1.html</link>
       <description>&lt;div class="compound"&gt;
-&lt;p&gt;We are proud to announce a new release of Hyperspy.&lt;/p&gt;
+&lt;p&gt;We are proud to announce a new release of HyperSpy.&lt;/p&gt;
 &lt;/div&gt;
 </description>
       <guid>http://hyperspy.org/news/release_0.5.1.html</guid>
       <pubDate>Fri, 28 Sep 2012 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Hyperspy 0.5  has been released!</title>
+      <title>HyperSpy 0.5  has been released!</title>
       <link>http://hyperspy.org/news/release_0.5.html</link>
       <description>&lt;div class="compound"&gt;
-&lt;p&gt;We are proud to announce a new release of Hyperspy.&lt;/p&gt;
+&lt;p&gt;We are proud to announce a new release of HyperSpy.&lt;/p&gt;
 &lt;/div&gt;
 </description>
       <guid>http://hyperspy.org/news/release_0.5.html</guid>
@@ -58,20 +68,20 @@ available as part of the official program of SFMu 2013.&lt;/p&gt;
       <pubDate>Wed, 29 Feb 2012 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Hyperspy 0.4.1  has been released!</title>
+      <title>HyperSpy 0.4.1  has been released!</title>
       <link>http://hyperspy.org/news/release_0.4.1.html</link>
       <description>&lt;div class="compound"&gt;
-&lt;p&gt;We are proud to announce a new release of Hyperspy.&lt;/p&gt;
+&lt;p&gt;We are proud to announce a new release of HyperSpy.&lt;/p&gt;
 &lt;/div&gt;
 </description>
       <guid>http://hyperspy.org/news/release_0.4.1.html</guid>
       <pubDate>Mon, 16 Apr 2012 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Hyperspy 0.4  has been released!</title>
+      <title>HyperSpy 0.4  has been released!</title>
       <link>http://hyperspy.org/news/release_0.4.html</link>
       <description>&lt;div class="compound"&gt;
-&lt;p&gt;We are proud to announce a new release of Hyperspy.&lt;/p&gt;
+&lt;p&gt;We are proud to announce a new release of HyperSpy.&lt;/p&gt;
 &lt;/div&gt;
 </description>
       <guid>http://hyperspy.org/news/release_0.4.html</guid>
