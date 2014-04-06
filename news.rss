@@ -4,7 +4,7 @@
     <title>HyperSpy News</title>
     <link>http://hyperspy.org/</link>
     <description></description>
-    <lastBuildDate>Sun, 06 Apr 2014 10:15:24 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Apr 2014 10:16:48 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
       <title>HyperSpy training at the IMC2014</title>
@@ -15,6 +15,17 @@ Republic.&lt;/p&gt;
 &lt;/div&gt;
 </description>
       <guid>http://hyperspy.org/news/IMC2014.html</guid>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy talks and training at SHIRE2014</title>
+      <link>http://hyperspy.org/news/shire2014.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;Two HyperSpy-related talks and a HyperSpy training &amp;#64; SHIRE2014 on the 10-11
+April 2014 in Sheffield, UK.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/shire2014.html</guid>
       <pubDate>Tue, 01 Apr 2014 00:00:00 GMT</pubDate>
     </item>
     <item>
