@@ -10,8 +10,8 @@ HyperSpy training at the IMC2014
 
 .. cut::
 
-Registration and more information in `here
-http://www.imc2014.com/index.php?page=pena`_.
+    Registration and more information in `here
+    <http://www.imc2014.com/index.php?page=pena>`_.
 
    
 
