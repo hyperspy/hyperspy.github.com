@@ -4,13 +4,13 @@
     <title>HyperSpy News</title>
     <link>http://hyperspy.org/</link>
     <description></description>
-    <lastBuildDate>Thu, 19 Jun 2014 09:41:31 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jun 2014 09:44:59 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
       <title>New demos section</title>
       <link>http://hyperspy.org/news/new_demos_section.html</link>
       <description>&lt;div class="compound"&gt;
-&lt;p&gt;The examples sections has been replaced by a new &lt;a class="reference external" href="http://nbviewer.ipython.org/github/hyperspy/hyperspy-demos/tree/master/"&gt;demos&lt;/a&gt;
+&lt;p&gt;The examples section in the HyperSpy website has been replaced by a new &lt;a class="reference external" href="http://nbviewer.ipython.org/github/hyperspy/hyperspy-demos/tree/master/"&gt;demos&lt;/a&gt;
 section.&lt;/p&gt;
 &lt;/div&gt;
 </description>
