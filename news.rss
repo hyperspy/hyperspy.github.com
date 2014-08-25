@@ -4,8 +4,18 @@
     <title>HyperSpy News</title>
     <link>http://hyperspy.org/</link>
     <description></description>
-    <lastBuildDate>Fri, 01 Aug 2014 15:54:26 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 Aug 2014 13:51:47 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
+    <item>
+      <title>HyperSpy 0.7.3  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.7.3.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;New maintenance release to solve a library compatibility issue.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.7.3.html</guid>
+      <pubDate>Fri, 22 Aug 2014 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>New demos section</title>
       <link>http://hyperspy.org/news/new_demos_section.html</link>
