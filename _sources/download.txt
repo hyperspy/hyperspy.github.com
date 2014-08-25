@@ -72,8 +72,8 @@ Follow `this link
 for quick instructions on how to install HyperSpy in MacOS.
 
 
-Other related software
-======================
+Related software
+================
 
 .. _import-rpl:
 
