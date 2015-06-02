@@ -4,7 +4,194 @@
     <title>HyperSpy News</title>
     <link>http://hyperspy.org/</link>
     <description></description>
-    <lastBuildDate>Tue, 02 Jun 2015 15:47:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2015 15:51:56 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
+    <item>
+      <title>Citing HyperSpy</title>
+      <link>http://hyperspy.org/news/doi.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p class="compound-first"&gt;HyperSpy can now be cited using our brand new D.O.I. See &lt;a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/citing.html"&gt;how to cite HyperSpy&lt;/a&gt; or click on the DOI badge below for details.&lt;/p&gt;
+&lt;a class="compound-last reference external image-reference" href="http://dx.doi.org/10.5281/zenodo.16850"&gt;&lt;img src="https://zenodo.org/badge/doi/10.5281/zenodo.16850.svg" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/doi.html</guid>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy Workshop @ Cambridge (UK), 13th of April 2015</title>
+      <link>http://hyperspy.org/news/cambridge2015.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;Multi-dimensional data analysis with Python and HyperSpy Workshop. Registration and more information
+&lt;a class="reference external" href="http://cook.msm.cam.ac.uk/~hyperspy/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/cambridge2015.html</guid>
+      <pubDate>Wed, 18 Mar 2015 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy 0.8  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.8.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of Hyperspy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.8.html</guid>
+      <pubDate>Tue, 07 Apr 2015 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy 0.7.3  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.7.3.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;New maintenance release to solve a library compatibility issue.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.7.3.html</guid>
+      <pubDate>Fri, 22 Aug 2014 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy 0.7.2  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.7.2.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new maintenance release of Hyperspy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.7.2.html</guid>
+      <pubDate>Fri, 22 Aug 2014 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>New demos section</title>
+      <link>http://hyperspy.org/news/new_demos_section.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;The examples section in the HyperSpy website has been replaced by a new &lt;a class="reference external" href="http://nbviewer.ipython.org/github/hyperspy/hyperspy-demos/tree/master/"&gt;demos&lt;/a&gt;
+section.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/new_demos_section.html</guid>
+      <pubDate>Thu, 19 Jun 2014 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy 0.7.1  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.7.1.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new maintenance release of Hyperspy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.7.1.html</guid>
+      <pubDate>Wed, 18 Jun 2014 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy practical at the SuperSTEM Summer School</title>
+      <link>http://hyperspy.org/news/superstem2014.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;The 6th biennial SuperSTEM Summer School (4-7 July 2014, Daresbury UK) includes
+a HyperSpy practial.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/superstem2014.html</guid>
+      <pubDate>Wed, 18 Jun 2014 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy training at the IMC2014</title>
+      <link>http://hyperspy.org/news/IMC2014.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;HyperSpy training at the IMC2014 on the 7th of September 2014 in Prague, Czech
+Republic.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/IMC2014.html</guid>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy talks and training at SHIRE2014</title>
+      <link>http://hyperspy.org/news/shire2014.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;Two HyperSpy-related talks and a HyperSpy training &amp;#64; SHIRE2014 on the 10-11
+April 2014 in Sheffield, UK.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/shire2014.html</guid>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy 0.7  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.7.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of Hyperspy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.7.html</guid>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy 0.6  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.6.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of HyperSpy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.6.html</guid>
+      <pubDate>Tue, 04 Jun 2013 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy tutorial at the SFmu2013</title>
+      <link>http://hyperspy.org/news/sfmu2013.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;A tutorial on analysis of multidimensional spectra using HyperSpy is
+available as part of the official program of SFMu 2013.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/sfmu2013.html</guid>
+      <pubDate>Tue, 04 Jun 2013 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy 0.5.1  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.5.1.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of HyperSpy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.5.1.html</guid>
+      <pubDate>Fri, 28 Sep 2012 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy 0.5  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.5.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of HyperSpy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.5.html</guid>
+      <pubDate>Sat, 08 Sep 2012 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>New release of ImportRPL</title>
+      <link>http://hyperspy.org/news/release_importrpl.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of the ImportRPL  Digital Micrograph plugin.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_importrpl.html</guid>
+      <pubDate>Wed, 29 Feb 2012 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy 0.4.1  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.4.1.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of HyperSpy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.4.1.html</guid>
+      <pubDate>Mon, 16 Apr 2012 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy 0.4  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.4.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new release of HyperSpy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.4.html</guid>
+      <pubDate>Wed, 29 Feb 2012 00:00:00 GMT</pubDate>
+    </item>
   </channel>
 </rss>
