@@ -1,4 +1,4 @@
-HyperSpy workshop at SCANDEM2016
+HyperSpy workshop at EMC2016
 ================================
 
 .. feed-entry::
