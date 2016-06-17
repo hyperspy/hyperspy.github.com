@@ -4,8 +4,70 @@
     <title>HyperSpy News</title>
     <link>http://hyperspy.org/</link>
     <description></description>
-    <lastBuildDate>Fri, 17 Jun 2016 11:33:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jun 2016 12:00:38 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
+    <item>
+      <title>New demos added</title>
+      <link>http://hyperspy.org/news/new_demos_scandem.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;The existing
+&lt;a class="reference external" href="http://nbviewer.jupyter.org/github/hyperspy/hyperspy-demos/tree/master/"&gt;demos&lt;/a&gt; have been updated and three new demos have been added.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/new_demos_scandem.html</guid>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy 0.8.5  have been released!</title>
+      <link>http://hyperspy.org/news/release_0.8.5.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are pleased to announce the release of HyperSpy 0.8.5.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.8.5.html</guid>
+      <pubDate>Thu, 02 Jun 2016 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy workshop at EMC2016</title>
+      <link>http://hyperspy.org/news/EMC2016.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are happy to announce a HyperSpy workshop at the &lt;a class="reference external" href="http://emc2016.fr"&gt;16th European Microscopy Congress (EMC 2016)&lt;/a&gt;. The workshop will take place on the 27th of August 2016 in Lyon, France.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/EMC2016.html</guid>
+      <pubDate>Fri, 06 May 2016 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy workshop at SCANDEM2016</title>
+      <link>http://hyperspy.org/news/SCANDEM2016.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are happy to announce a HyperSpy workshop at the SCANDEM2016 conference. The workshop will take place on the 7th of June 2016 in Trondheim,
+Norway. There area only 20 places available. Registration to the conference is required to register to the workshop.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/SCANDEM2016.html</guid>
+      <pubDate>Fri, 18 Mar 2016 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy 0.8.3 and 0.8.4  have been released!</title>
+      <link>http://hyperspy.org/news/release_0.8.4.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are pleased to announce the release of HyperSpy 0.8.3 and 0.8.4.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.8.4.html</guid>
+      <pubDate>Thu, 03 Mar 2016 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperSpy 0.8.2  has been released!</title>
+      <link>http://hyperspy.org/news/release_0.8.2.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are proud to announce a new maitenance release of HyperSpy.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_0.8.2.html</guid>
+      <pubDate>Thu, 13 Aug 2015 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>HyperSpy 0.8.1  has been released!</title>
       <link>http://hyperspy.org/news/release_0.8.1.html</link>
