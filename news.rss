@@ -4,8 +4,18 @@
     <title>HyperSpy News</title>
     <link>http://hyperspy.org/</link>
     <description></description>
-    <lastBuildDate>Tue, 12 Jul 2016 16:39:37 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jul 2016 14:08:15 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
+    <item>
+      <title>HyperSpy 1.0  has been released!</title>
+      <link>http://hyperspy.org/news/release_1.0.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;We are pleased to announce the release of HyperSpy 1.0.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_1.0.html</guid>
+      <pubDate>Thu, 14 Jul 2016 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>New demos added</title>
       <link>http://hyperspy.org/news/new_demos_scandem.html</link>
