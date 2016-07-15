@@ -4,8 +4,18 @@
     <title>HyperSpy News</title>
     <link>http://hyperspy.org/</link>
     <description></description>
-    <lastBuildDate>Thu, 14 Jul 2016 15:34:39 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 Jul 2016 16:36:41 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
+    <item>
+      <title>Scipy2016 HyperSpy talk</title>
+      <link>http://hyperspy.org/news/scipy2016_talk.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p class="compound-first"&gt;Watch online Tomas Ostaševičius presenting &amp;#8220;HyperSpy: How to Easily Bend Multi-dimensional Data to your Analytical Will&amp;#8221; at the &lt;a class="reference external" href="http://scipy2016.scipy.org"&gt;SciPy2016 conference&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="compound-last"&gt;&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/kVlf3bMZcsc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/scipy2016_talk.html</guid>
+      <pubDate>Fri, 15 Jul 2016 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>HyperSpy 1.0  has been released!</title>
       <link>http://hyperspy.org/news/release_1.0.html</link>
