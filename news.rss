@@ -4,8 +4,21 @@
     <title>HyperSpy News</title>
     <link>http://hyperspy.org/</link>
     <description></description>
-    <lastBuildDate>Wed, 03 Aug 2016 09:43:29 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Jan 2017 18:45:59 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
+    <item>
+      <title>HyperSpy 1.1.2  has been released!</title>
+      <link>http://hyperspy.org/news/release_1.1.2.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p class="compound-first"&gt;We are pleased to announce the release of HyperSpy 1.1.2&lt;/p&gt;
+&lt;p class="compound-last"&gt;This is a maintenance release. Follow the following links for details on all
+the &lt;a class="reference external" href="https://github.com/hyperspy/hyperspy/issues?q=label%3Abug+is%3Aclosed+milestone%3Av1.1.2"&gt;bugs fixed&lt;/a&gt;
+and &lt;a class="reference external" href="https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.1.2+label%3Aenhancement"&gt;enhancements&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_1.1.2.html</guid>
+      <pubDate>Tue, 12 Jan 2016 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>HyperSpy 1.1  has been released!</title>
       <link>http://hyperspy.org/news/release_1.1.html</link>
@@ -123,7 +136,7 @@ Norway. There area only 20 places available. Registration to the conference is r
       <link>http://hyperspy.org/news/doi.html</link>
       <description>&lt;div class="compound"&gt;
 &lt;p class="compound-first"&gt;HyperSpy can now be cited using our brand new D.O.I. See &lt;a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/citing.html"&gt;how to cite HyperSpy&lt;/a&gt; or click on the DOI badge below for details.&lt;/p&gt;
-&lt;a class="compound-last reference external image-reference" href="http://dx.doi.org/10.5281/zenodo.16850"&gt;&lt;img src="https://zenodo.org/badge/doi/10.5281/zenodo.16850.svg" /&gt;&lt;/a&gt;
+&lt;a class="compound-last reference external image-reference" href="http://dx.doi.org/10.5281/zenodo.16850"&gt;&lt;img alt="https://zenodo.org/badge/doi/10.5281/zenodo.16850.svg" src="https://zenodo.org/badge/doi/10.5281/zenodo.16850.svg" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 </description>
       <guid>http://hyperspy.org/news/doi.html</guid>
