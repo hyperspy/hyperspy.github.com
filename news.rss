@@ -4,8 +4,19 @@
     <title>HyperSpy News</title>
     <link>http://hyperspy.org/</link>
     <description></description>
-    <lastBuildDate>Thu, 02 Mar 2017 19:16:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Mar 2017 19:21:26 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
+    <item>
+      <title>HyperSpy 1.2  has been released!</title>
+      <link>http://hyperspy.org/news/release_1.2.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p class="compound-first"&gt;We are pleased to announce the release of HyperSpy 1.2&lt;/p&gt;
+&lt;p class="compound-last"&gt;This is a minor release that includes multiple new features, enhances and bug fixes. See the &lt;a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/what_is_new.html#changes-1-2" title="(in HyperSpy v1.2)"&gt;&lt;span class="xref std std-ref"&gt;the changelist&lt;/span&gt;&lt;/a&gt; for details.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/release_1.2.html</guid>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>HyperSpy 1.1.2  has been released!</title>
       <link>http://hyperspy.org/news/release_1.1.2.html</link>
