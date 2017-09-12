@@ -1,17 +1,14 @@
 
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <title>Uninstalling HyperSpy 0.6 in Windows &#8212; HyperSpy</title>
-    
     <link rel="stylesheet" href="_static/agogo.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -57,7 +54,7 @@
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
   </head>
-  <body role="document">
+  <body>
     <div class="header-wrapper">
       <div class="header">
           <div class="logo"><a href="index.html">
@@ -144,7 +141,7 @@ You may be affected if:</p>
 <li>You have installed HyperSpy 0.6 in Windows using the <em>full installer</em>. (This
 issue affects both the 32bit and 64bit versions.) If you have installed
 HyperSpy in an already existing Python installation (e.g. EPD, Canopy,
-Anaconda...) using the <a class="reference external" href="https://pypi.python.org/pypi/hyperspy">HyperSpy python installers</a> this bug does not affect you.</li>
+Anaconda…) using the <a class="reference external" href="https://pypi.python.org/pypi/hyperspy">HyperSpy python installers</a> this bug does not affect you.</li>
 <li>You have not installed HyperSpy in the default location and you have
 selected an already-existing, non-empty folder to install HyperSpy.</li>
 </ul>
@@ -153,17 +150,17 @@ follows:</p>
 <div class="section" id="finding-your-hyperspy-installation-folder">
 <span id="find-hyperspy-folder"></span><h3>Finding your HyperSpy installation folder<a class="headerlink" href="#finding-your-hyperspy-installation-folder" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic">
-<li><p class="first">Find HyperSpy in the Windows &#8220;Start Menu&#8221;.</p>
+<li><p class="first">Find HyperSpy in the Windows “Start Menu”.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/start_menu_hyperspy.png"><img alt="_images/start_menu_hyperspy.png" src="_images/start_menu_hyperspy.png" style="width: 200px;" /></a>
 </div>
 </li>
-<li><p class="first">Right-click on the &#8220;Uninstall HyperSpy&#8221; icon to open the context menu.</p>
+<li><p class="first">Right-click on the “Uninstall HyperSpy” icon to open the context menu.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/start_menu_context_menu.png"><img alt="_images/start_menu_context_menu.png" src="_images/start_menu_context_menu.png" style="width: 300px;" /></a>
 </div>
 </li>
-<li><p class="first">Left-click in &#8220;Open file location&#8221;.</p>
+<li><p class="first">Left-click in “Open file location”.</p>
 </li>
 </ol>
 <p>Following the above instruction the file manager should appear showing
@@ -176,7 +173,7 @@ the HyperSpy installation folder as in the following image.</p>
 <p>Normally this folder contains only HyperSpy related files. However, if you have
 customized the installation folder during the installation process this folder
 can contain other files that you do not want to delete. In the worst scenarios
-this folder can be your &#8220;My Documents&#8221; or &#8220;Program Files&#8221;. If that is your case
+this folder can be your “My Documents” or “Program Files”. If that is your case
 <em>do not use the uninstaller</em> to uninstall HyperSpy and follow the following
 instructions instead to uninstall it. Failing to do this will cause the
 uninstaller to delete <em>all the files</em> in the installation folder, not only the
@@ -199,21 +196,21 @@ installation is affected by this bug.</p>
 <p>This step is only necessary if you have installed HyperSpy with administrator
 rights.</p>
 <ol class="arabic">
-<li><p class="first">Find HyperSpy in the Windows &#8220;Start Menu&#8221;.</p>
+<li><p class="first">Find HyperSpy in the Windows “Start Menu”.</p>
 <blockquote>
 <div><div class="figure align-center">
 <a class="reference internal image-reference" href="_images/start_menu_qtconsole.png"><img alt="_images/start_menu_qtconsole.png" src="_images/start_menu_qtconsole.png" style="width: 200px;" /></a>
 </div>
 </div></blockquote>
 </li>
-<li><p class="first">Right-click on the &#8220;HyperSpy QtConsole&#8221; icon to open the context menu.</p>
+<li><p class="first">Right-click on the “HyperSpy QtConsole” icon to open the context menu.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/start_menu_context_menu_qtconsole.png"><img alt="_images/start_menu_context_menu_qtconsole.png" src="_images/start_menu_context_menu_qtconsole.png" style="width: 300px;" /></a>
 </div>
 </li>
-<li><p class="first">Left-click on &#8220;Run as administrator&#8221;. The QtConsole should open.</p>
+<li><p class="first">Left-click on “Run as administrator”. The QtConsole should open.</p>
 </li>
-<li><p class="first">Type &#8221;!uninstall_hyperspy_here&#8221; in the qtconsole and press enter.</p>
+<li><p class="first">Type “!uninstall_hyperspy_here” in the qtconsole and press enter.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/qtconsole_uninstall_hyperspy_here.png"><img alt="_images/qtconsole_uninstall_hyperspy_here.png" src="_images/qtconsole_uninstall_hyperspy_here.png" style="width: 300px;" /></a>
 </div>
@@ -225,7 +222,7 @@ rights.</p>
 <ol class="arabic simple">
 <li>Follow <a class="reference internal" href="#find-hyperspy-folder"><span class="std std-ref">these instructions</span></a> to find your HyperSpy
 installation folder.</li>
-<li>Delete manually the &#8220;python-2.7.4&#8221; folder.</li>
+<li>Delete manually the “python-2.7.4” folder.</li>
 <li>Delete manually following files:<ul>
 <li>IPython Notebook.exe</li>
 <li>IPython Qt Console.exe</li>
@@ -246,7 +243,7 @@ installation folder.</li>
 <div class="section" id="delete-the-startmenu-entry">
 <h4>Delete the StartMenu entry<a class="headerlink" href="#delete-the-startmenu-entry" title="Permalink to this headline">¶</a></h4>
 <ol class="arabic">
-<li><p class="first">Find HyperSpy in the Windows &#8220;Start Menu&#8221;.</p>
+<li><p class="first">Find HyperSpy in the Windows “Start Menu”.</p>
 </li>
 <li><dl class="first docutils">
 <dt>Right-click on the HyperSpy entry to open the context menu.</dt>
@@ -256,7 +253,7 @@ installation folder.</li>
 </dd>
 </dl>
 </li>
-<li><p class="first">Left-click on &#8220;Delete&#8221;.</p>
+<li><p class="first">Left-click on “Delete”.</p>
 </li>
 </ol>
 </div>
@@ -279,7 +276,7 @@ installation folder.</li>
       
     <div class="footer" role="contentinfo">
         &#169; Copyright The HyperSpy development team.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.6.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
     </div>
     </div>
 
