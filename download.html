@@ -5,20 +5,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Download &#8212; HyperSpy</title>
     <link rel="stylesheet" href="_static/agogo.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
+    <script type="text/javascript" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
@@ -53,8 +45,7 @@
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
-  </head>
-  <body>
+  </head><body>
     <div class="header-wrapper">
       <div class="header">
           <div class="logo"><a href="index.html">
@@ -65,11 +56,11 @@
           <a href="index.html">Home</a> ·
 <a href="#">Download</a> ·
 <a href="documentation.html">Documentation</a> ·
-<a href="http://nbviewer.ipython.org/github/hyperspy/hyperspy-demos/tree/master/">Demos</a> ·
+<a target="_blank" href="https://github.com/hyperspy/hyperspy-demos">Demos</a> ·
 <a href="news.html">News</a> ·
 <a href="support.html">Support</a> ·
-<a href="http://hyperspy.org/hyperspy-doc/current/citing.html">Citing</a> ·
-<a href="https://github.com/hyperspy/hyperspy/graphs/contributors">Credits</a>
+<a target="_blank" href="http://hyperspy.org/hyperspy-doc/current/citing.html">Citing</a> ·
+<a target="_blank" href="https://github.com/hyperspy/hyperspy/graphs/contributors">Credits</a>
         </div>
        </div>
     </div>
@@ -85,23 +76,31 @@
 
 <div class="tile"><h4>Stable</h4>
     1.3<br/>
-    <a href="http://hyperspy.org/download.html#beta-releases">Download</a><br/>
-    <a href="https://github.com/hyperspy/hyperspy/issues?utf8=%E2%9C%93&q=label%3A%22release%3A%20next%20patch%22%20">Known issues</a>
-
+    <a href="#">Download</a><br/>
+    <a target="_blank" href="http://hyperspy.org/hyperspy-doc/current/index.html">
+        Documentation</a><br/>
+    <a target="_blank" href="https://github.com/hyperspy/hyperspy-demos/">
+        Demos</a><br/>
+    <a target="_blank" href="https://github.com/hyperspy/hyperspy/issues?utf8=%E2%9C%93&q=label%3A%22release%3A%20next%20patch%22%20">
+        Known issues</a>
 </div>
 
 <div class="tile"><h4>Development</h4>
-    <a href="https://github.com/hyperspy/hyperspy">Github</a>
+    <a target="_blank" href="https://github.com/hyperspy/hyperspy">View on Github</a><br/>
+    <a target="_blank" href="http://hyperspy.readthedocs.io/en/latest">
+        Documentation</a>
 </div>
 </div>
 <div class="sidebarblock">
 <h3>Support</h3>
 
   <ul class="simple">
-    <li><a class="reference external" href="https://github.com/hyperspy/hyperspy/issues">
+    <li><a class="reference external" target="_blank" href="https://github.com/hyperspy/hyperspy/issues">
             Issue tracker</a></li>
-    <li><a class="reference external" href="http://groups.google.com/group/hyperspy-users">
+    <li><a class="reference external" target="_blank" href="http://groups.google.com/group/hyperspy-users">
             Mailing list</a></li>
+      <li><a class="reference external" target="_blank" href="https://gitter.im/hyperspy/hyperspy">
+            Gitter chat</a></li>
   </ul>
 </div>
         </div>
@@ -118,8 +117,12 @@
 <div class="section" id="hyperspy">
 <span id="stable-releases"></span><h2>HyperSpy<a class="headerlink" href="#hyperspy" title="Permalink to this headline">¶</a></h2>
 <p>There are multiple ways to install HyperSpy, please refer to the
-<a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/install.html">installation chapter of the User Guide</a> for details.</p>
-<p>If you are on Microsoft Windows and you are new to Python the easiest way to get started is installing the Windows bundle below. For other platforms and experienced users we recommend installing with <a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/install.html#quick-instructions-to-install-hyperspy-using-anaconda-linux-macos-windows">Anaconda</a>.</p>
+<a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/install.html">installation chapter of the User Guide</a>
+for details.</p>
+<p>If you are on Microsoft Windows and you are new to Python the easiest
+way to get started is installing the Windows bundle below. For other platforms and
+experienced users we recommend installing with
+<a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/install.html#quick-instructions-to-install-hyperspy-using-anaconda-linux-macos-windows">Anaconda</a>.</p>
 <div class="section" id="windows-bundle-installers">
 <h3>Windows bundle installers<a class="headerlink" href="#windows-bundle-installers" title="Permalink to this headline">¶</a></h3>
 <p>These installers install <a class="reference external" href="https://winpython.github.io/">WinPython</a> 3.5.1.2
@@ -130,7 +133,9 @@ includes <a class="reference external" href="http://hyperspy.org/hyperspyUI/">Hy
 <p><a class="reference external" href="https://github.com/hyperspy/hyperspy/releases/download/v1.3/HyperSpy-v1.3-Bundle-Windows-64bit.exe">HyperSpy-1.3 for Windows 64-bits</a></p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">If HyperSpy fails to start install the Visual C++ 2015 (<a class="reference external" href="https://www.visualstudio.com/downloads/download-visual-studio-vs#d-visual-c">x64 and x86</a> for CPython 3.5) redistributable packages.</p>
+<p class="last">If HyperSpy fails to start install the Visual C++ 2015
+(<a class="reference external" href="https://www.visualstudio.com/downloads/download-visual-studio-vs#d-visual-c">x64 and x86</a>
+for CPython 3.5) redistributable packages.</p>
 </div>
 <p>Older releases are available in <a class="reference external" href="https://github.com/hyperspy/hyperspy/releases">GitHub</a>.</p>
 </div>
@@ -155,10 +160,10 @@ with raw or bin extension it is opened directly without prompting</p>
 </div>
 <div class="section" id="readhyperspyh5-matlab-plugin">
 <span id="hyperspy-matlab"></span><h3>readHyperSpyH5 MATLAB Plugin<a class="headerlink" href="#readhyperspyh5-matlab-plugin" title="Permalink to this headline">¶</a></h3>
-<p>This MATLAB script is designed to import HyperSpy’s saved HDF5 files (<code class="docutils literal"><span class="pre">.hspy</span></code> extension).
+<p>This MATLAB script is designed to import HyperSpy’s saved HDF5 files (<code class="docutils literal notranslate"><span class="pre">.hspy</span></code> extension).
 Like the Digital Micrograph script above, it is used to easily transfer data
 from HyperSpy to MATLAB, while retaining spatial calibration information.</p>
-<p>Download <code class="docutils literal"><span class="pre">readHyperSpyH5</span></code> from its <a class="reference external" href="https://github.com/jat255/readHyperSpyH5">Github repository</a>.</p>
+<p>Download <code class="docutils literal notranslate"><span class="pre">readHyperSpyH5</span></code> from its <a class="reference external" href="https://github.com/jat255/readHyperSpyH5">Github repository</a>.</p>
 </div>
 </div>
 </div>
@@ -178,7 +183,7 @@ from HyperSpy to MATLAB, while retaining spatial calibration information.</p>
       
     <div class="footer" role="contentinfo">
         &#169; Copyright The HyperSpy development team.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.1.
     </div>
     </div>
 

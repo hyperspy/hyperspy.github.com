@@ -4,8 +4,18 @@
     <title>HyperSpy News</title>
     <link>http://hyperspy.org/</link>
     <description></description>
-    <lastBuildDate>Tue, 12 Sep 2017 16:35:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Mar 2018 10:03:44 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
+    <item>
+      <title>New interactive demos</title>
+      <link>http://hyperspy.org/news/interactive_demos.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p&gt;Interactive demos have been added to HyperSpy!&lt;/p&gt;
+&lt;/div&gt;
+</description>
+      <guid>http://hyperspy.org/news/interactive_demos.html</guid>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>HyperSpy 1.2  has been released!</title>
       <link>http://hyperspy.org/news/release_1.3.html</link>
@@ -241,8 +251,7 @@ a HyperSpy practial.&lt;/p&gt;
       <title>HyperSpy training at the IMC2014</title>
       <link>http://hyperspy.org/news/IMC2014.html</link>
       <description>&lt;div class="compound"&gt;
-&lt;p&gt;HyperSpy training at the IMC2014 on the 7th of September 2014 in Prague, Czech
-Republic.&lt;/p&gt;
+&lt;p&gt;HyperSpy training at the IMC2014 on the 7th of September 2014 in Prague, Czech Republic.&lt;/p&gt;
 &lt;/div&gt;
 </description>
       <guid>http://hyperspy.org/news/IMC2014.html</guid>
