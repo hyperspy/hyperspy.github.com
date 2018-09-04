@@ -4,13 +4,13 @@
     <title>HyperSpy News</title>
     <link>http://hyperspy.org/</link>
     <description></description>
-    <lastBuildDate>Tue, 04 Sep 2018 10:07:21 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Sep 2018 10:54:16 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
       <title>HyperSpy 1.4  has been released!</title>
       <link>http://hyperspy.org/news/release_1.4.html</link>
       <description>&lt;div class="compound"&gt;
-&lt;p class="compound-first"&gt;We are pleased to announce the release of HyperSpy 1.4. See the &lt;a class="reference external" href="hyperspy.org/hyperspy-doc/current/user_guide/what_is_new.html#v1-4"&gt;changelog&lt;/a&gt; for
+&lt;p class="compound-first"&gt;We are pleased to announce the release of HyperSpy 1.4. See the &lt;a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/what_is_new.html#v1-4"&gt;changelog&lt;/a&gt; for
 details.&lt;/p&gt;
 &lt;p class="compound-middle"&gt;We have also released hyperspy-gui-traitsui 1.1.0 and hyperspy-gui-ipywidgets
 1.1.0. It is recommended to upgrade these packages when upgrading HyperSpy
