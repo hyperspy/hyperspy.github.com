@@ -4,20 +4,18 @@
     <title>HyperSpy News</title>
     <link>http://hyperspy.org/</link>
     <description></description>
-    <lastBuildDate>Sun, 28 Jul 2019 09:17:50 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2019 15:18:39 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
-      <title>HyperSpy 1.5  has been released!</title>
+      <title>HyperSpy 1.5.1 has been released!</title>
       <link>http://hyperspy.org/news/release_1.5.1.html</link>
       <description>&lt;div class="compound"&gt;
-&lt;p class="compound-first"&gt;We are pleased to announce the release of HyperSpy 1.5. See the &lt;a class="reference external" href="hyperspy.org/hyperspy-doc/current/user_guide/what_is_new.html#v1-5"&gt;changelog&lt;/a&gt; for
+&lt;p&gt;We are pleased to announce the release of HyperSpy 1.5.1. See the &lt;a class="reference external" href="hyperspy.org/hyperspy-doc/current/user_guide/what_is_new.html#v1-5-1"&gt;changelog&lt;/a&gt; for
 details.&lt;/p&gt;
-&lt;p class="compound-last"&gt;We have also released hyperspy-gui-traitsui 1.2 and hyperspy-gui-ipywidgets
-1.2. Older versions are not compatible with HyperSpy 1.5, so those packages needs to be upgraded as well.&lt;/p&gt;
 &lt;/div&gt;
 </description>
       <guid>http://hyperspy.org/news/release_1.5.1.html</guid>
-      <pubDate>Sat, 27 Jul 2019 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>HyperSpy 1.5  has been released!</title>
@@ -108,7 +106,7 @@ releases see &lt;a class="reference external" href="https://github.com/hyperspy/
       <link>http://hyperspy.org/news/release_1.3.html</link>
       <description>&lt;div class="compound"&gt;
 &lt;p class="compound-first"&gt;We are pleased to announce the release of HyperSpy 1.3&lt;/p&gt;
-&lt;p class="compound-last"&gt;This is a minor release that includes multiple new features, enhances and bug fixes. See the &lt;a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/what_is_new.html#changes-1-3" title="(in HyperSpy v1.5)"&gt;&lt;span class="xref std std-ref"&gt;the changelist&lt;/span&gt;&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p class="compound-last"&gt;This is a minor release that includes multiple new features, enhances and bug fixes. See the &lt;a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/what_is_new.html#changes-1-3" title="(in HyperSpy v1.5.1)"&gt;&lt;span class="xref std std-ref"&gt;the changelist&lt;/span&gt;&lt;/a&gt; for details.&lt;/p&gt;
 &lt;/div&gt;
 </description>
       <guid>http://hyperspy.org/news/release_1.3.html</guid>
@@ -119,7 +117,7 @@ releases see &lt;a class="reference external" href="https://github.com/hyperspy/
       <link>http://hyperspy.org/news/release_1.2.html</link>
       <description>&lt;div class="compound"&gt;
 &lt;p class="compound-first"&gt;We are pleased to announce the release of HyperSpy 1.2&lt;/p&gt;
-&lt;p class="compound-last"&gt;This is a minor release that includes multiple new features, enhances and bug fixes. See the &lt;a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/what_is_new.html#changes-1-2" title="(in HyperSpy v1.5)"&gt;&lt;span class="xref std std-ref"&gt;the changelist&lt;/span&gt;&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p class="compound-last"&gt;This is a minor release that includes multiple new features, enhances and bug fixes. See the &lt;a class="reference external" href="http://hyperspy.org/hyperspy-doc/current/user_guide/what_is_new.html#changes-1-2" title="(in HyperSpy v1.5.1)"&gt;&lt;span class="xref std std-ref"&gt;the changelist&lt;/span&gt;&lt;/a&gt; for details.&lt;/p&gt;
 &lt;/div&gt;
 </description>
       <guid>http://hyperspy.org/news/release_1.2.html</guid>
