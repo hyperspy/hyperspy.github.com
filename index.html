@@ -1,190 +1,709 @@
 
-
 <!DOCTYPE html>
 
-<html lang="en">
+
+<html lang="en" data-content_root="./" >
+
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-
-    <title>HyperSpy: multi-dimensional data analysis toolbox &#8212; HyperSpy</title>
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/agogo.css" />
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/sphinx_highlight.js"></script>
-    <link rel="canonical" href="https://hyperspy.org/index.html" />
-    <link rel="shortcut icon" href="_static/hyperspy_logo.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="_static/hyperspy_logo.ico" rel="icon" type="image/x-icon">
+    <title>Home &#8212; HyperSpy Website</title>
   
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=5082ac84" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=bd9e20870c6007c4c509" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=bd9e20870c6007c4c509" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=bd9e20870c6007c4c509"></script>
+
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-  <link rel="alternate"
-        type="application/rss+xml"
-        title="Hyperspy News"
-        href="/news.rss" />
+    <link rel="next" title="About" href="about.html" />
 
- 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script type="text/javascript">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-25260850-1']);
-  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
 
-</script>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <header>
+
+
+  <div class="bd-header-announcement container-fluid bd-header-announcement">
+    <div class="bd-header-announcement__content"><font size='+1'><b><a href='https://hyperspy.org/hyperspy-doc/v2.0/changes.html'>HyperSpy 2.0 released!</a></b></font></div>
+  </div>
+
+  
+    <div class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/hyperspy_logo.png" class="logo__image only-light" alt=""/>
+    <script>document.write(`<img src="_static/hyperspy_logo.png" class="logo__image only-dark" alt=""/>`);</script>
+  
+  
+    <p class="title logo__title">HyperSpy</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="about.html">
+                        About
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="news/index.html">
+                        News
+                      </a>
+                    </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="https://hyperspy.org/hyperspy-doc/current">
+                    Documentation
+                  </a>
+                </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="https://hyperspy.org/hyperspy-doc/current/user_guide/install.html">
+                    Install
+                  </a>
+                </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="https://hyperspy.org/jupyterlite-hyperspy">
+                    Try
+                  </a>
+                </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+      
+        <div class="navbar-item">
 
 <script>
-  ((window.gitter = {}).chat = {}).options = {
-    room: 'hyperspy/hyperspy'
-  };
-</script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-
-  </head><body>
-    <div class="header-wrapper">
-      <div class="header">
-          <div class="logo"><a href="#">
-            <img class="logo" src="_static/hyperspy_banner.png" alt="Logo"/>
-          </a></div>
-       
-        <div class="rel">
-          <a href="#">Home</a> ·
-<a target="_blank"
-   href="http://hyperspy.org/hyperspy-doc/current/user_guide/install.html">Download</a> ·
-<a href="documentation.html">Documentation</a> ·
-<a target="_blank" href="https://github.com/hyperspy/hyperspy-demos">Demos</a> ·
-<a href="news.html">News</a> ·
-<a href="support.html">Support</a> ·
-<a target="_blank" href="http://hyperspy.org/hyperspy-doc/current/citing.html">Citing</a> ·
-<a target="_blank" href="https://github.com/hyperspy/hyperspy/graphs/contributors">Credits</a>
-        </div>
-       </div>
-    </div>
-
-    <div class="content-wrapper">
-      <div class="content">
-             
-            
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper"> 
-<div class="sidebarblock">
-<h3>Versions</h3>
-
-<div class="tile"><h4>Stable</h4>
-    <a href="https://pypi.python.org/pypi/hyperspy"><img src="http://img.shields.io/pypi/v/hyperspy.svg?style=flat" alt="version"></a><br/>
-    <a target="_blank" href="http://hyperspy.org/hyperspy-doc/current/index.html">
-        Documentation</a><br/>
-    <a target="_blank" href="https://github.com/hyperspy/hyperspy-demos/">
-        Demos</a><br/>
-    <a target="_blank" href="https://github.com/hyperspy/hyperspy/issues?utf8=%E2%9C%93&q=label%3A%22release%3A%20next%20patch%22%20">
-        Known issues</a>
-</div>
-
-<div class="tile"><h4>Development</h4>
-    <a target="_blank" href="https://github.com/hyperspy/hyperspy">View on Github</a><br/>
-    <a target="_blank" href="http://hyperspy.readthedocs.io/en/latest">
-        Documentation</a>
-</div>
-</div>
-<div class="sidebarblock">
-<h3>Support</h3>
-
-  <ul class="simple">
-    <li><a class="reference external" target="_blank" href="https://github.com/hyperspy/hyperspy/issues">
-            Issue tracker</a></li>
-    <li><a class="reference external" target="_blank" href="http://groups.google.com/group/hyperspy-users">
-            Mailing list</a></li>
-      <li><a class="reference external" target="_blank" href="https://gitter.im/hyperspy/hyperspy">
-            Gitter chat</a></li>
-  </ul>
-</div>
-        </div>
-      </div>
-        
-        <div class="document">
-            
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body" role="main">
-            
-  <section id="hyperspy-multi-dimensional-data-analysis-toolbox">
-<h1>HyperSpy: multi-dimensional data analysis toolbox<a class="headerlink" href="#hyperspy-multi-dimensional-data-analysis-toolbox" title="Permalink to this heading">¶</a></h1>
-<p>HyperSpy is an open source Python library which provides tools to facilitate
-the interactive data analysis of multi-dimensional datasets that can be
-described as multi-dimensional arrays of a given signal (e.g. a 2D array of
-spectra a.k.a spectrum image).</p>
-<p>HyperSpy aims at making it easy and natural to apply analytical procedures that
-operate on an individual signal to multi-dimensional arrays, as well as
-providing easy access to analytical tools that exploit the multi-dimensionality
-of the dataset.</p>
-<p>Its modular structure makes it easy to add features to analyze different kinds
-of signals.</p>
-<section id="help-fight-covid-19">
-<h2>Help fight COVID 19<a class="headerlink" href="#help-fight-covid-19" title="Permalink to this heading">¶</a></h2>
-<a class="reference internal image-reference" href="_images/CDC-coronavirus-image-23311-for-web.jpg"><img alt="_images/CDC-coronavirus-image-23311-for-web.jpg" src="_images/CDC-coronavirus-image-23311-for-web.jpg" style="width: 100pt;" /></a>
-<p>If you are interested in HyperSpy, chances are that your skills can be useful to
-help fighting <a class="reference external" href="https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2">SARS-CoV-2</a>
-aka COVID 19. Therefore, please consider contributing to the following two
-projects:</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://discourse.covid-oss-help.org/">COVID-19 Open-Source Helpdesk</a></p></li>
-<li><p><a class="reference external" href="https://crowdfightcovid19.org/">Crowdfight COVID-19</a></p></li>
-</ul>
-</section>
-<section id="highlights">
-<h2>Highlights<a class="headerlink" href="#highlights" title="Permalink to this heading">¶</a></h2>
-<ul class="simple">
-<li><p>Two families of named and scaled axes: <em>signal</em> and <em>navigation</em>.</p></li>
-<li><p>Visualization tools for multi-dimensional spectra and images.</p></li>
-<li><p>Easy access multi-dimensional curve fitting and blind source separation.</p></li>
-<li><p>Built on top of NumPy, SciPy, matplotlib and scikit-learn.</p></li>
-<li><p>Modular design for easy extensibility.</p></li>
-</ul>
-<p>The development has been motivated by the data analysis needs of the
-electron microscopy community but it is proving useful in many other fields.</p>
-</section>
-<section id="endorsements">
-<h2>Endorsements<a class="headerlink" href="#endorsements" title="Permalink to this heading">¶</a></h2>
-<p>Here is some of what our users say about Hyperspy:</p>
-<p>(<a class="reference external" href="https://saythanks.io/to/hyperspy">Click here to add your thank you note</a>)</p>
-<blockquote class="epigraph">
-<div><p>Hyperspy made it easy to process EELS and EDS data for presentation in my thesis!</p>
-<p class="attribution">—Tom Aarholt, University of Oxford</p>
-</div></blockquote>
-<blockquote class="epigraph">
-<div><p>My answer to any (S)TEM data analyses problem - use HyperSpy</p>
-<p class="attribution">—Vadim Migunov, Ernst Ruska-Centre (ER-C), Research Centre Juelich</p>
-</div></blockquote>
-</section>
-</section>
-
-
-            <div class="clearer"></div>
-          </div>
-        </div>
-      </div>
-        </div>
-        <div class="clearer"></div>
-    </div>
-    </div>
-
-<a href="https://github.com/hyperspy/hyperspy"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-
-    <div class="footer-wrapper">
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
       
-    <div class="footer" role="contentinfo">
-        &#169; Copyright The HyperSpy development team.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.3.0.
+        <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/hyperspy" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://gitter.im/hyperspy" title="Gitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fab fa-gitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Gitter</span></a>
+        </li>
+</ul></div>
+      
     </div>
-    </div>
+    
+  </div>
+  
+  
 
+  
+</div>
+
+    </div>
+  
+  </header>
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar hide-on-wide">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="about.html">
+                        About
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="news/index.html">
+                        News
+                      </a>
+                    </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="https://hyperspy.org/hyperspy-doc/current">
+                    Documentation
+                  </a>
+                </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="https://hyperspy.org/hyperspy-doc/current/user_guide/install.html">
+                    Install
+                  </a>
+                </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="https://hyperspy.org/jupyterlite-hyperspy">
+                    Try
+                  </a>
+                </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/hyperspy" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://gitter.im/hyperspy" title="Gitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fab fa-gitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Gitter</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article"></div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<div class="toctree-wrapper compound">
+</div>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-12 sd-col-xs-12 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 sd-align-major-center docutils">
+<a class="logo mainlogo only-light reference internal image-reference" href="_images/hyperspy_banner_light.png"><img alt="HyperSpy logo" class="logo mainlogo only-light align-center" src="_images/hyperspy_banner_light.png" style="width: 400px;" /></a>
+<a class="logo mainlogo only-dark reference internal image-reference" href="_images/hyperspy_dark_banner.svg"><img alt="HyperSpy logo" class="logo mainlogo only-dark align-center" src="_images/hyperspy_dark_banner.svg" width="400" /></a>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-12 sd-col-xs-12 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<div class="sd-text-left sd-font-weight-bold sd-fs-4 sd-width-50 docutils">
+<p>Open source Python framework for exploring, visualizing and analyzing
+multi-dimensional data</p>
+</div>
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-shadow-sm sd-rounded-3 reference external" href="https://hyperspy.org/hyperspy-doc/current/user_guide/index.html"><span><span class="fa fa-rocket"></span> Get Started</span></a></p>
+</div>
+</div>
+</div>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 sd-g-4 sd-g-xs-4 sd-g-sm-4 sd-g-md-4 sd-g-lg-4 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><svg version="1.1" width="2.0em" height="2.0em" class="sd-octicon sd-octicon-eye sd-text-info" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 12a3.5 3.5 0 11-7 0 3.5 3.5 0 017 0z"></path><path fill-rule="evenodd" d="M12 3.5c-3.432 0-6.125 1.534-8.054 3.24C2.02 8.445.814 10.352.33 11.202a1.6 1.6 0 000 1.598c.484.85 1.69 2.758 3.616 4.46C5.876 18.966 8.568 20.5 12 20.5c3.432 0 6.125-1.534 8.054-3.24 1.926-1.704 3.132-3.611 3.616-4.461a1.6 1.6 0 000-1.598c-.484-.85-1.69-2.757-3.616-4.46C18.124 5.034 15.432 3.5 12 3.5zM1.633 11.945c.441-.774 1.551-2.528 3.307-4.08C6.69 6.314 9.045 5 12 5c2.955 0 5.309 1.315 7.06 2.864 1.756 1.553 2.866 3.307 3.307 4.08a.111.111 0 01.017.056.111.111 0 01-.017.056c-.441.774-1.551 2.527-3.307 4.08C17.31 17.685 14.955 19 12 19c-2.955 0-5.309-1.315-7.06-2.864-1.756-1.553-2.866-3.306-3.307-4.08A.11.11 0 011.616 12a.11.11 0 01.017-.055z"></path></svg> Visualization</p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Interactive <a class="reference external" href="https://hyperspy.org/hyperspy-doc/current/user_guide/visualisation.html#visualization-label" title="(in HyperSpy v2.0)"><span class="xref std std-ref">visualization tools</span></a>
+for multi-dimensional spectra and images.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><svg version="1.1" width="2.0em" height="2.0em" class="sd-octicon sd-octicon-gear sd-text-info" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M16 12a4 4 0 11-8 0 4 4 0 018 0zm-1.5 0a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path><path fill-rule="evenodd" d="M12 1c-.268 0-.534.01-.797.028-.763.055-1.345.617-1.512 1.304l-.352 1.45c-.02.078-.09.172-.225.22a8.45 8.45 0 00-.728.303c-.13.06-.246.044-.315.002l-1.274-.776c-.604-.368-1.412-.354-1.99.147-.403.348-.78.726-1.129 1.128-.5.579-.515 1.387-.147 1.99l.776 1.275c.042.069.059.185-.002.315-.112.237-.213.48-.302.728-.05.135-.143.206-.221.225l-1.45.352c-.687.167-1.249.749-1.304 1.512a11.149 11.149 0 000 1.594c.055.763.617 1.345 1.304 1.512l1.45.352c.078.02.172.09.22.225.09.248.191.491.303.729.06.129.044.245.002.314l-.776 1.274c-.368.604-.354 1.412.147 1.99.348.403.726.78 1.128 1.129.579.5 1.387.515 1.99.147l1.275-.776c.069-.042.185-.059.315.002.237.112.48.213.728.302.135.05.206.143.225.221l.352 1.45c.167.687.749 1.249 1.512 1.303a11.125 11.125 0 001.594 0c.763-.054 1.345-.616 1.512-1.303l.352-1.45c.02-.078.09-.172.225-.22.248-.09.491-.191.729-.303.129-.06.245-.044.314-.002l1.274.776c.604.368 1.412.354 1.99-.147.403-.348.78-.726 1.129-1.128.5-.579.515-1.387.147-1.99l-.776-1.275c-.042-.069-.059-.185.002-.315.112-.237.213-.48.302-.728.05-.135.143-.206.221-.225l1.45-.352c.687-.167 1.249-.749 1.303-1.512a11.125 11.125 0 000-1.594c-.054-.763-.616-1.345-1.303-1.512l-1.45-.352c-.078-.02-.172-.09-.22-.225a8.469 8.469 0 00-.303-.728c-.06-.13-.044-.246-.002-.315l.776-1.274c.368-.604.354-1.412-.147-1.99-.348-.403-.726-.78-1.128-1.129-.579-.5-1.387-.515-1.99-.147l-1.275.776c-.069.042-.185.059-.315-.002a8.465 8.465 0 00-.728-.302c-.135-.05-.206-.143-.225-.221l-.352-1.45c-.167-.687-.749-1.249-1.512-1.304A11.149 11.149 0 0012 1zm-.69 1.525a9.648 9.648 0 011.38 0c.055.004.135.05.162.16l.351 1.45c.153.628.626 1.08 1.173 1.278.205.074.405.157.6.249a1.832 1.832 0 001.733-.074l1.275-.776c.097-.06.186-.036.228 0 .348.302.674.628.976.976.036.042.06.13 0 .228l-.776 1.274a1.832 1.832 0 00-.074 1.734c.092.195.175.395.248.6.198.547.652 1.02 1.278 1.172l1.45.353c.111.026.157.106.161.161a9.653 9.653 0 010 1.38c-.004.055-.05.135-.16.162l-1.45.351a1.833 1.833 0 00-1.278 1.173 6.926 6.926 0 01-.25.6 1.832 1.832 0 00.075 1.733l.776 1.275c.06.097.036.186 0 .228a9.555 9.555 0 01-.976.976c-.042.036-.13.06-.228 0l-1.275-.776a1.832 1.832 0 00-1.733-.074 6.926 6.926 0 01-.6.248 1.833 1.833 0 00-1.172 1.278l-.353 1.45c-.026.111-.106.157-.161.161a9.653 9.653 0 01-1.38 0c-.055-.004-.135-.05-.162-.16l-.351-1.45a1.833 1.833 0 00-1.173-1.278 6.928 6.928 0 01-.6-.25 1.832 1.832 0 00-1.734.075l-1.274.776c-.097.06-.186.036-.228 0a9.56 9.56 0 01-.976-.976c-.036-.042-.06-.13 0-.228l.776-1.275a1.832 1.832 0 00.074-1.733 6.948 6.948 0 01-.249-.6 1.833 1.833 0 00-1.277-1.172l-1.45-.353c-.111-.026-.157-.106-.161-.161a9.648 9.648 0 010-1.38c.004-.055.05-.135.16-.162l1.45-.351a1.833 1.833 0 001.278-1.173 6.95 6.95 0 01.249-.6 1.832 1.832 0 00-.074-1.734l-.776-1.274c-.06-.097-.036-.186 0-.228.302-.348.628-.674.976-.976.042-.036.13-.06.228 0l1.274.776a1.832 1.832 0 001.734.074 6.95 6.95 0 01.6-.249 1.833 1.833 0 001.172-1.277l.353-1.45c.026-.111.106-.157.161-.161z"></path></svg> Analysis</p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Easy access to analytical tools that exploit the multi-dimensionality
+of datasets, including <a class="reference external" href="https://hyperspy.org/hyperspy-doc/current/user_guide/model/index.html#model-label" title="(in HyperSpy v2.0)"><span class="xref std std-ref">curve fitting</span></a>
+and <a class="reference external" href="https://hyperspy.org/hyperspy-doc/current/user_guide/mva/index.html#ml-label" title="(in HyperSpy v2.0)"><span class="xref std std-ref">blind source separation</span></a>.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><svg version="1.1" width="2.0em" height="2.0em" class="sd-octicon sd-octicon-table sd-text-info" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.75C2 2.784 2.784 2 3.75 2h16.5c.966 0 1.75.784 1.75 1.75v16.5A1.75 1.75 0 0120.25 22H3.75A1.75 1.75 0 012 20.25V3.75zM3.5 9v11.25c0 .138.112.25.25.25H7.5V9h-4zm4-1.5h-4V3.75a.25.25 0 01.25-.25H7.5v4zM9 9v11.5h11.25a.25.25 0 00.25-.25V9H9zm11.5-1.5H9v-4h11.25a.25.25 0 01.25.25V7.5z"></path></svg> Named and Scaled Axes</p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><a class="reference external" href="https://hyperspy.org/hyperspy-doc/current/user_guide/axes.html#axes-handling" title="(in HyperSpy v2.0)"><span class="xref std std-ref">Two families of axes</span></a>: <em>signal</em> and
+<em>navigation</em> with powerful numpy-style indexing mechanism and support for
+non-uniform axes.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><svg version="1.1" width="2.0em" height="2.0em" class="sd-octicon sd-octicon-zap sd-text-info" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M16.168 2.924L4.51 13.061a.25.25 0 00.164.439h5.45a.75.75 0 01.692 1.041l-2.559 6.066 11.215-9.668a.25.25 0 00-.164-.439H14a.75.75 0 01-.687-1.05l2.855-6.526zm-.452-1.595a1.341 1.341 0 012.109 1.55L15.147 9h4.161c1.623 0 2.372 2.016 1.143 3.075L8.102 22.721a1.149 1.149 0 01-1.81-1.317L8.996 15H4.674c-1.619 0-2.37-2.008-1.148-3.07l12.19-10.6z"></path></svg> Performance</p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Built on top of <a class="reference external" href="https://numpy.org">NumPy</a>, <a class="reference external" href="https://scipy.org">SciPy</a>,
+<a class="reference external" href="https://numba.pydata.org/">Numba</a>, <a class="reference external" href="https://matplotlib.org">Matplotlib</a>,
+<a class="reference external" href="https://dask.org">Dask</a> and <a class="reference external" href="https://scikit-learn.org">Scikit-learn</a> for
+high performance and stability.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><svg version="1.1" width="2.0em" height="2.0em" class="sd-octicon sd-octicon-rocket sd-text-info" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M20.322.75a10.75 10.75 0 00-7.373 2.926l-1.304 1.23A23.743 23.743 0 0010.103 6.5H5.066a1.75 1.75 0 00-1.5.85l-2.71 4.514a.75.75 0 00.49 1.12l4.571.963c.039.049.082.096.129.14L8.04 15.96l1.872 1.994c.044.047.091.09.14.129l.963 4.572a.75.75 0 001.12.488l4.514-2.709a1.75 1.75 0 00.85-1.5v-5.038a23.741 23.741 0 001.596-1.542l1.228-1.304a10.75 10.75 0 002.925-7.374V2.499A1.75 1.75 0 0021.498.75h-1.177zM16 15.112c-.333.248-.672.487-1.018.718l-3.393 2.262.678 3.223 3.612-2.167a.25.25 0 00.121-.214v-3.822zm-10.092-2.7L8.17 9.017c.23-.346.47-.685.717-1.017H5.066a.25.25 0 00-.214.121l-2.167 3.612 3.223.679zm8.07-7.644a9.25 9.25 0 016.344-2.518h1.177a.25.25 0 01.25.25v1.176a9.25 9.25 0 01-2.517 6.346l-1.228 1.303a22.248 22.248 0 01-3.854 3.257l-3.288 2.192-1.743-1.858a.764.764 0 00-.034-.034l-1.859-1.744 2.193-3.29a22.248 22.248 0 013.255-3.851l1.304-1.23zM17.5 8a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm-11 13c.9-.9.9-2.6 0-3.5-.9-.9-2.6-.9-3.5 0-1.209 1.209-1.445 3.901-1.49 4.743a.232.232 0 00.247.247c.842-.045 3.534-.281 4.743-1.49z"></path></svg> Ecosystem</p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><a class="reference internal" href="#ecosystem-label"><span class="std std-ref">Domain-specific libraries</span></a> and modular design for
+<a class="reference external" href="https://hyperspy.org/hyperspy-doc/current/dev_guide/writing_extensions.html#writing-extensions-label" title="(in HyperSpy v2.0)"><span class="xref std std-ref">easy extensibility</span></a>.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><svg version="1.1" width="2.0em" height="2.0em" class="sd-octicon sd-octicon-people sd-text-info" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3.5 8a5.5 5.5 0 118.596 4.547 9.005 9.005 0 015.9 8.18.75.75 0 01-1.5.045 7.5 7.5 0 00-14.993 0 .75.75 0 01-1.499-.044 9.005 9.005 0 015.9-8.181A5.494 5.494 0 013.5 8zM9 4a4 4 0 100 8 4 4 0 000-8z"></path><path d="M17.29 8c-.148 0-.292.01-.434.03a.75.75 0 11-.212-1.484 4.53 4.53 0 013.38 8.097 6.69 6.69 0 013.956 6.107.75.75 0 01-1.5 0 5.193 5.193 0 00-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0017.29 8z"></path></svg> Community Driven</p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><a class="reference external" href="https://hyperspy.org/hyperspy-doc/current/dev_guide/index.html#development" title="(in HyperSpy v2.0)"><span class="xref std std-ref">Developed and maintained</span></a> by scientists
+for scientists.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class="text-center sd-font-weight-bold sd-fs-3">Latest News</p>
+<ul class="postlist-style-circle postlist simple">
+<li class="ablog-post"><p class="ablog-post-title"><a class="reference internal" href="news/NTNU2024.html">Analysis of 4D-STEM DATA &#64; NTNU, 11-13th of June 2024</a></p></li>
+<li class="ablog-post"><p class="ablog-post-title"><a class="reference internal" href="news/eBEAM2024.html">HyperSpy lecture and tutorial &#64; eBEAM summer school, Sept. 1-13, 2024</a></p></li>
+<li class="ablog-post"><p class="ablog-post-title"><a class="reference internal" href="news/EMC2024.html">HyperSpy Workshop &#64; EMC2024, 25th of August 2024</a></p></li>
+</ul>
+<p class="text-center sd-font-weight-bold sd-fs-3" id="ecosystem-label">HyperSpy Ecosystem</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="" class="sd-card-img-top" src="_images/hyperspy_logo.png" />
+<div class="sd-card-header docutils">
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+HyperSpy</div>
+<p class="sd-card-text">Generic multi-dimensional data analysis toolbox</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://hyperspy.org/hyperspy-doc/current"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="" class="sd-card-img-top" src="_images/rosettasciio.svg" /><div class="sd-card-header docutils">
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+RosettaSciIO</div>
+<p class="sd-card-text">Reading and writing scientific data formats</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://hyperspy.org/rosettasciio/"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="" class="sd-card-img-top" src="_images/hyperspy_logo.png" />
+<div class="sd-card-header docutils">
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+exSpy</div>
+<p class="sd-card-text">X-rays Energy Dispersive Spectroscopy (EDS) and Electron Energy Loss Spectroscopy (EELS)</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://hyperspy.org/exspy"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="" class="sd-card-img-top" src="_images/pyxem.png" />
+<div class="sd-card-header docutils">
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+pyxem</div>
+<p class="sd-card-text">Electron diffraction data (4DSTEM)</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://pyxem.readthedocs.io"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="" class="sd-card-img-top" src="_images/kikuchipy.svg" /><div class="sd-card-header docutils">
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+kikuchipy</div>
+<p class="sd-card-text">Electron backscatter diffraction (EBSD)</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://kikuchipy.org/"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="" class="sd-card-img-top" src="_images/lumispy.svg" /><div class="sd-card-header docutils">
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+LumiSpy</div>
+<p class="sd-card-text">Luminescence spectroscopy (cathodoluminescence, photoluminescence, Raman)</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://docs.lumispy.org"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="" class="sd-card-img-top" src="_images/atomaplogo.png" />
+<div class="sd-card-header docutils">
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+atomap</div>
+<p class="sd-card-text">Atomic resolution scanning transmission electron</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://atomap.org"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="" class="sd-card-img-top" src="_images/hyperspy_logo.png" />
+<div class="sd-card-header docutils">
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+HoloSpy</div>
+<p class="sd-card-text">Off-axis electron holograph</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://hyperspy.org/holospy"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="" class="sd-card-img-top" src="_images/hyperspyui_logo.png" />
+<div class="sd-card-header docutils">
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+HyperSpyUI</div>
+<p class="sd-card-text">Streamlined user interface to HyperSpy</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://hyperspy.org/hyperspyUI"></a></div>
+</div>
+</div>
+</div>
+<p class="text-center sd-font-weight-bold sd-fs-3" id="support-label">Support</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-4 sd-row-cols-lg-4 sd-g-4 sd-g-xs-4 sd-g-sm-4 sd-g-md-4 sd-g-lg-4 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text">User Guides</p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Comprehensive documentation on how to use <a class="reference external" href="https://hyperspy.org/hyperspy-doc/current">Hyperspy</a>
+and the various extensions that form the <a class="reference internal" href="#ecosystem-label"><span class="std std-ref">Ecosystem</span></a>.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text">Tutorials</p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Tutorials in the form of jupyter notebooks to demonstrate typical analysis
+workflows are hosted in dedicated repositories for each library, see e.g.
+<a class="reference external" href="https://github.com/hyperspy/hyperspy-demos">HyperSpy demos</a>.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text">Workshops</p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Attend one of the HyperSpy workshops orgenised regularly. Past and future
+events can be found under <a class="reference internal" href="news/index.html#news-label"><span class="std std-ref">News</span></a>.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text">Chat</p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Ask the HyperSpy Community on the <a class="reference external" href="https://gitter.im/hyperspy/hyperspy">Gitter chat</a>.</p>
+<a class="reference external image-reference" href="https://gitter.im/hyperspy/hyperspy"><img alt="Gitter chat" src="https://img.shields.io/gitter/room/hyperspy/hyperspy" /></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="section ablog__blog_comments">
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=bd9e20870c6007c4c509"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=bd9e20870c6007c4c509"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, The HyperSpy community.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
   </body>
 </html>
