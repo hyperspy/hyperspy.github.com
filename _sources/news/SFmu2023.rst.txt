@@ -11,3 +11,7 @@ will feature an introductory talk and hands-on tutorials on HyperSpy, EELS analy
 EDX analysis, Diffraction and LumiSpy.
 
 Attendance is limited as a computer room of the university will be used.
+
+.. image:: images/smfu_banner.png
+    :alt:  SFµ logo
+    :width: 300
